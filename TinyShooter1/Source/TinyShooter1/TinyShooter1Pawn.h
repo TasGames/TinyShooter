@@ -23,6 +23,10 @@ class ATinyShooter1Pawn : public APawn
 	UPROPERTY(Category = Camera, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
 
+	/* movement component */
+	UPROPERTY(Category = Camera, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	class UMyFloatingPawnMovement * MovementComponent;
+
 public:
 	ATinyShooter1Pawn();
 

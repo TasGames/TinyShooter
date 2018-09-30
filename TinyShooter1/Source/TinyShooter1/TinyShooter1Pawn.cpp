@@ -12,6 +12,7 @@
 #include "Engine/StaticMesh.h"
 #include "Kismet/GameplayStatics.h"
 #include "Sound/SoundBase.h"
+#include "MyFloatingPawnMovement.h"
 
 const FName ATinyShooter1Pawn::MoveForwardBinding("MoveForward");
 const FName ATinyShooter1Pawn::MoveRightBinding("MoveRight");
@@ -44,6 +45,10 @@ ATinyShooter1Pawn::ATinyShooter1Pawn()
 	CameraComponent->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
 	CameraComponent->bUsePawnControlRotation = false;	// Camera does not rotate relative to arm
 
+	// Create movement component
+	MovementComponent = CreateDefaultSubobject<UMyFloatingPawnMovement>(TEXT("MovementComp"));
+	MovementComponent->UpdatedComponent = RootComponent;
+
 	// Movement
 	MoveSpeed = 1000.0f;
 	// Weapon
@@ -65,43 +70,22 @@ void ATinyShooter1Pawn::SetupPlayerInputComponent(class UInputComponent* PlayerI
 
 void ATinyShooter1Pawn::Tick(float DeltaSeconds)
 {
+	Super::Tick(DeltaSeconds);
+
 	// Find movement direction
 	const float ForwardValue = GetInputAxisValue(MoveForwardBinding);
 	const float RightValue = GetInputAxisValue(MoveRightBinding);
 
-	//Get forward movement value
-	const FVector MoveDirection = RootComponent->GetForwardVector() * ForwardValue;
+	// apply our input to the component responsible for moving us (it takes care of move speed, delta time, accel / decel etc.)
+	MovementComponent->ApplyInput(ForwardValue, RightValue, DeltaSeconds);
 
-	// Calculate movement
-	DesiredVelocity += Acceleration * DeltaSeconds * (RootComponent->GetForwardVector() * ForwardValue);
-
-	DesiredVelocity *= Deceleration;
-
-	const FVector Movement = DesiredVelocity;
-
-	//Get the current rotation
-	FRotator rot = RootComponent->GetOwner()->GetActorRotation();
-
-	if (FMath::Abs(RightValue) > 0.001f)
-		rot.Add(0.0f, RightValue * RotateSpeed * DeltaSeconds, 0.0f);
-
-	FHitResult Hit(1.0f);
-	RootComponent->MoveComponent(Movement, rot, true, &Hit);
-
-	if (Hit.IsValidBlockingHit())
-	{
-		const FVector Normal2D = Hit.Normal.GetSafeNormal2D();
-		const FVector Deflection = FVector::VectorPlaneProject(Movement, Normal2D) * (1.0f - Hit.Time);
-		RootComponent->MoveComponent(Deflection, rot, true);
-	}
-	
 	// Create fire direction vector
 	const float FireForwardValue = GetInputAxisValue(FireForwardBinding);
 	const float FireRightValue = GetInputAxisValue(FireRightBinding);
 	const FVector FireDirection = FVector(FireForwardValue, FireRightValue, 0.f);
 
 	// Try and fire a shot
-	FireShot(FireDirection);
+	FireShot(GetActorRotation().RotateVector(FireDirection));
 }
 
 void ATinyShooter1Pawn::FireShot(FVector FireDirection)
