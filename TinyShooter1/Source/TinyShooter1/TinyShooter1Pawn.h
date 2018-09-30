@@ -38,9 +38,23 @@ public:
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
 	float MoveSpeed;
 
+	/* The speed our ship rotates */
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+	float RotateSpeed = 0.4f;
+
+	/* The acceleration of our ship */
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+	float Acceleration = 100.0f;
+
+	/* The deceleration of our ship */
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+	float Deceleration = 0.997f;
+
 	/** Sound to play each time we fire */
 	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
 	class USoundBase* FireSound;
+
+	FVector DesiredVelocity;
 
 	// Begin Actor Interface
 	virtual void Tick(float DeltaSeconds) override;

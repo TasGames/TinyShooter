@@ -41,6 +41,18 @@ void EmptyLinkFunctionForGeneratedCodeTinyShooter1Pawn() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FireSound;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Deceleration_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Deceleration;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Acceleration_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Acceleration;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RotateSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RotateSpeed;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MoveSpeed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MoveSpeed;
@@ -89,6 +101,30 @@ void EmptyLinkFunctionForGeneratedCodeTinyShooter1Pawn() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_FireSound = { UE4CodeGen_Private::EPropertyClass::Object, "FireSound", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ATinyShooter1Pawn, FireSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_FireSound_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_FireSound_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_Deceleration_MetaData[] = {
+		{ "Category", "Gameplay" },
+		{ "ModuleRelativePath", "TinyShooter1Pawn.h" },
+		{ "ToolTip", "The deceleration of our ship" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_Deceleration = { UE4CodeGen_Private::EPropertyClass::Float, "Deceleration", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ATinyShooter1Pawn, Deceleration), METADATA_PARAMS(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_Deceleration_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_Deceleration_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_Acceleration_MetaData[] = {
+		{ "Category", "Gameplay" },
+		{ "ModuleRelativePath", "TinyShooter1Pawn.h" },
+		{ "ToolTip", "The acceleration of our ship" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_Acceleration = { UE4CodeGen_Private::EPropertyClass::Float, "Acceleration", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ATinyShooter1Pawn, Acceleration), METADATA_PARAMS(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_Acceleration_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_Acceleration_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_RotateSpeed_MetaData[] = {
+		{ "Category", "Gameplay" },
+		{ "ModuleRelativePath", "TinyShooter1Pawn.h" },
+		{ "ToolTip", "The speed our ship rotates" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_RotateSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "RotateSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ATinyShooter1Pawn, RotateSpeed), METADATA_PARAMS(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_RotateSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_RotateSpeed_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_MoveSpeed_MetaData[] = {
 		{ "Category", "Gameplay" },
@@ -145,6 +181,9 @@ void EmptyLinkFunctionForGeneratedCodeTinyShooter1Pawn() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_ShipMeshComponent = { UE4CodeGen_Private::EPropertyClass::Object, "ShipMeshComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b001d, 1, nullptr, STRUCT_OFFSET(ATinyShooter1Pawn, ShipMeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_ShipMeshComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_ShipMeshComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATinyShooter1Pawn_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_FireSound,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_Deceleration,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_Acceleration,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_RotateSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_MoveSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_FireRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_GunOffset,
@@ -175,7 +214,7 @@ void EmptyLinkFunctionForGeneratedCodeTinyShooter1Pawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATinyShooter1Pawn, 4207784775);
+	IMPLEMENT_CLASS(ATinyShooter1Pawn, 809078339);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATinyShooter1Pawn(Z_Construct_UClass_ATinyShooter1Pawn, &ATinyShooter1Pawn::StaticClass, TEXT("/Script/TinyShooter1"), TEXT("ATinyShooter1Pawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATinyShooter1Pawn);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

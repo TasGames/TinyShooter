@@ -69,25 +69,30 @@ void ATinyShooter1Pawn::Tick(float DeltaSeconds)
 	const float ForwardValue = GetInputAxisValue(MoveForwardBinding);
 	const float RightValue = GetInputAxisValue(MoveRightBinding);
 
-	// Clamp max size so that (X=1, Y=1) doesn't cause faster movement in diagonal directions
-	const FVector MoveDirection = FVector(ForwardValue, RightValue, 0.f).GetClampedToMaxSize(1.0f);
+	//Get forward movement value
+	const FVector MoveDirection = RootComponent->GetForwardVector() * ForwardValue;
 
-	// Calculate  movement
-	const FVector Movement = MoveDirection * MoveSpeed * DeltaSeconds;
+	// Calculate movement
+	DesiredVelocity += Acceleration * DeltaSeconds * (RootComponent->GetForwardVector() * ForwardValue);
 
-	// If non-zero size, move this actor
-	if (Movement.SizeSquared() > 0.0f)
+	DesiredVelocity *= Deceleration;
+
+	const FVector Movement = DesiredVelocity;
+
+	//Get the current rotation
+	FRotator rot = RootComponent->GetOwner()->GetActorRotation();
+
+	if (FMath::Abs(RightValue) > 0.001f)
+		rot.Add(0.0f, RightValue * RotateSpeed * DeltaSeconds, 0.0f);
+
+	FHitResult Hit(1.0f);
+	RootComponent->MoveComponent(Movement, rot, true, &Hit);
+
+	if (Hit.IsValidBlockingHit())
 	{
-		const FRotator NewRotation = Movement.Rotation();
-		FHitResult Hit(1.f);
-		RootComponent->MoveComponent(Movement, NewRotation, true, &Hit);
-		
-		if (Hit.IsValidBlockingHit())
-		{
-			const FVector Normal2D = Hit.Normal.GetSafeNormal2D();
-			const FVector Deflection = FVector::VectorPlaneProject(Movement, Normal2D) * (1.f - Hit.Time);
-			RootComponent->MoveComponent(Deflection, NewRotation, true);
-		}
+		const FVector Normal2D = Hit.Normal.GetSafeNormal2D();
+		const FVector Deflection = FVector::VectorPlaneProject(Movement, Normal2D) * (1.0f - Hit.Time);
+		RootComponent->MoveComponent(Deflection, rot, true);
 	}
 	
 	// Create fire direction vector

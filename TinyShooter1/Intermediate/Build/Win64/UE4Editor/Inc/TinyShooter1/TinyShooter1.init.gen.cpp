@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeTinyShooter1_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/TinyShooter1",
 				PKG_CompiledIn | 0x00000000,
-				0x1895BA8C,
+				0x4E0F07D0,
 				0xE1692997,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
