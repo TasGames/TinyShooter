@@ -1,0 +1,25 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TinyShooter1-670.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\TinyShooter1Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\MyFloatingPawnMovement.cpp.obj"
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\TinyShooter1.cpp.obj"
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\TinyShooter1GameMode.cpp.obj"
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\TinyShooter1Pawn.cpp.obj"
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\TinyShooter1Projectile.cpp.obj"
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\TriggerableWeaponComponent.cpp.obj"
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\TriggerComponent.cpp.obj"
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\MyFloatingPawnMovement.gen.cpp.obj"
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\TinyShooter1.init.gen.cpp.obj"
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\TinyShooter1GameMode.gen.cpp.obj"
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\TinyShooter1Pawn.gen.cpp.obj"
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\TinyShooter1Projectile.gen.cpp.obj"
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\TriggerableWeaponComponent.gen.cpp.obj"
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\TriggerComponent.gen.cpp.obj"
+"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\PCLaunch.rc.res"
+/OUT:"A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-670.lib"

@@ -51,6 +51,7 @@ void EmptyLinkFunctionForGeneratedCodeTriggerableWeaponComponent() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTriggerableWeaponComponent_Triggered_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "TriggerableWeaponComponent.h" },
+		{ "ToolTip", "this has to be a ufunction so that it can be bound to the OnTriggered multicast delegate on the trigger component!" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTriggerableWeaponComponent_Triggered_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTriggerableWeaponComponent, "Triggered", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00820401, sizeof(TriggerableWeaponComponent_eventTriggered_Parms), Z_Construct_UFunction_UTriggerableWeaponComponent_Triggered_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTriggerableWeaponComponent_Triggered_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTriggerableWeaponComponent_Triggered_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTriggerableWeaponComponent_Triggered_Statics::Function_MetaDataParams)) };
@@ -91,7 +92,7 @@ void EmptyLinkFunctionForGeneratedCodeTriggerableWeaponComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_TinyShooter1,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UTriggerableWeaponComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UTriggerableWeaponComponent_Triggered, "Triggered" }, // 1381745363
+		{ &Z_Construct_UFunction_UTriggerableWeaponComponent_Triggered, "Triggered" }, // 3102952077
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTriggerableWeaponComponent_Statics::Class_MetaDataParams[] = {
@@ -106,6 +107,7 @@ void EmptyLinkFunctionForGeneratedCodeTriggerableWeaponComponent() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTriggerableWeaponComponent_Statics::NewProp_FireSound_MetaData[] = {
 		{ "Category", "Audio" },
 		{ "ModuleRelativePath", "TriggerableWeaponComponent.h" },
+		{ "ToolTip", "Sound plays when it fires" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTriggerableWeaponComponent_Statics::NewProp_FireSound = { UE4CodeGen_Private::EPropertyClass::Object, "FireSound", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UTriggerableWeaponComponent, FireSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTriggerableWeaponComponent_Statics::NewProp_FireSound_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTriggerableWeaponComponent_Statics::NewProp_FireSound_MetaData)) };
@@ -113,6 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeTriggerableWeaponComponent() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTriggerableWeaponComponent_Statics::NewProp_ProjectileType_MetaData[] = {
 		{ "Category", "Gameplay" },
 		{ "ModuleRelativePath", "TriggerableWeaponComponent.h" },
+		{ "ToolTip", "Which projectile does it fire" },
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UTriggerableWeaponComponent_Statics::NewProp_ProjectileType = { UE4CodeGen_Private::EPropertyClass::Class, "ProjectileType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000005, 1, nullptr, STRUCT_OFFSET(UTriggerableWeaponComponent, ProjectileType), Z_Construct_UClass_ATinyShooter1Projectile_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UTriggerableWeaponComponent_Statics::NewProp_ProjectileType_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTriggerableWeaponComponent_Statics::NewProp_ProjectileType_MetaData)) };
@@ -143,7 +146,7 @@ void EmptyLinkFunctionForGeneratedCodeTriggerableWeaponComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTriggerableWeaponComponent, 1212289264);
+	IMPLEMENT_CLASS(UTriggerableWeaponComponent, 259679034);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTriggerableWeaponComponent(Z_Construct_UClass_UTriggerableWeaponComponent, &UTriggerableWeaponComponent::StaticClass, TEXT("/Script/TinyShooter1"), TEXT("UTriggerableWeaponComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTriggerableWeaponComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
