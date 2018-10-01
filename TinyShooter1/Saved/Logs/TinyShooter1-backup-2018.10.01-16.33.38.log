@@ -1,0 +1,1137 @@
+﻿Log file open, 09/30/18 16:20:29
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TinyShooter1
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.171673
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.146s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.30-15.20.29:442][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.30-15.20.29:442][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.30-15.20.29:451][  0]LogHAL: Display: Platform has ~ 16 GB [17116667904 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.30-15.20.29:451][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.30-15.20.29:451][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.30-15.20.29:451][  0]LogInit: Computer: DESKTOP-C6U4EA4
+[2018.09.30-15.20.29:451][  0]LogInit: User: ThomasSimon
+[2018.09.30-15.20.29:451][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.30-15.20.29:451][  0]LogInit: High frequency timer resolution =3.234375 MHz
+[2018.09.30-15.20.29:451][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.30-15.20.29:451][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.30-15.20.29:451][  0]LogMemory: Process Physical Memory: 99.99 MB used, 99.99 MB peak
+[2018.09.30-15.20.29:451][  0]LogMemory: Process Virtual Memory: 84.22 MB used, 84.22 MB peak
+[2018.09.30-15.20.29:451][  0]LogMemory: Physical Memory: 6804.94 MB used,  9518.79 MB free, 16323.73 MB total
+[2018.09.30-15.20.29:451][  0]LogMemory: Virtual Memory: 4625.40 MB used,  9518.79 MB free, 134217728.00 MB total
+[2018.09.30-15.20.29:466][  0]LogInit: Using OS detected language (en-GB).
+[2018.09.30-15.20.29:466][  0]LogInit: Using OS detected locale (en-GB).
+[2018.09.30-15.20.29:466][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.09.30-15.20.29:815][  0]LogStreaming: Display: Took  0.349s to InitEngineTextLocalization.
+[2018.09.30-15.20.29:815][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.30-15.20.29:852][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.30-15.20.29:852][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.30-15.20.29:999][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.30-15.20.29:999][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.30-15.20.30:034][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.09.30-15.20.30:034][  0]LogD3D11RHI:       4043/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.09.30-15.20.30:036][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.30-15.20.30:036][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.30-15.20.30:036][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.30-15.20.30:041][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.30-15.20.30:041][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.30-15.20.30:041][  0]LogWindows: EnumDisplayDevices:
+[2018.09.30-15.20.30:042][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.09.30-15.20.30:042][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.09.30-15.20.30:042][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.09.30-15.20.30:042][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.09.30-15.20.30:042][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.09.30-15.20.30:042][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.09.30-15.20.30:042][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
+[2018.09.30-15.20.30:042][  0]LogD3D11RHI:      Driver Date: 6-1-2018
+[2018.09.30-15.20.30:042][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.09.30-15.20.30:069][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.30-15.20.30:086][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.30-15.20.30:136][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Intermediate/Shaders/WorkingDirectory/12448/).
+[2018.09.30-15.20.30:136][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas Simon/AppData/Local/Temp/UnrealShaderWorkingDir/B950EE544ECF866EFBBD698209E13106/'.
+[2018.09.30-15.20.30:358][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.30-15.20.30:369][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.30-15.20.30:380][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.30-15.20.30:392][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.30-15.20.30:404][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.30-15.20.30:416][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.30-15.20.30:429][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.30-15.20.30:442][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.30-15.20.30:447][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.30-15.20.30:521][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:521][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:521][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:521][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:521][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:521][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:521][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:521][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:521][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:521][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:521][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:521][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:521][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:522][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:522][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:522][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:522][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:522][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.30-15.20.30:523][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.30-15.20.30:579][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.30-15.20.30:579][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.30-15.20.30:601][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.30-15.20.30:602][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.30-15.20.30:615][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.30-15.20.30:627][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.30-15.20.30:640][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.30-15.20.30:652][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.30-15.20.30:661][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.30-15.20.30:661][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.30-15.20.30:709][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.30-15.20.30:709][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.30-15.20.30:709][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.30-15.20.31:357][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.30-15.20.31:425][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.30-15.20.31:425][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.30-15.20.31:425][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.30-15.20.31:425][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.30-15.20.31:425][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.30-15.20.31:425][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.30-15.20.31:438][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.30-15.20.31:450][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.30-15.20.31:450][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.30-15.20.31:450][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.30-15.20.31:467][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.30-15.20.31:468][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.30-15.20.31:468][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.30-15.20.31:542][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2018.09.30-15.20.31:837][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.30-15.20.31:957][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.30-15.20.31:960][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.30-15.20.31:960][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.30-15.20.31:960][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.30-15.20.31:960][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.30-15.20.31:981][  0]LogNetVersion: TinyShooter1 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1918165624)
+[2018.09.30-15.20.32:466][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.125765 seconds
+[2018.09.30-15.20.32:473][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.30-15.20.32:474][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.30-15.20.32:474][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.30-15.20.33:227][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.30-15.20.33:249][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.30-15.20.33:400][  0]SourceControl: Source control is disabled
+[2018.09.30-15.20.33:400][  0]SourceControl: Source control is disabled
+[2018.09.30-15.20.33:401][  0]SourceControl: Source control is disabled
+[2018.09.30-15.20.33:402][  0]SourceControl: Source control is disabled
+[2018.09.30-15.20.33:558][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.30-15.20.33:595][  0]LogOcInput: OculusInput pre-init called
+[2018.09.30-15.20.33:647][  0]LogEngine: Initializing Engine...
+[2018.09.30-15.20.33:647][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.30-15.20.33:649][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.30-15.20.33:649][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.30-15.20.33:649][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.30-15.20.33:649][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.30-15.20.33:843][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.30-15.20.33:854][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.30-15.20.33:861][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.30-15.20.33:886][  0]LogInit: FAudioDevice initialized.
+[2018.09.30-15.20.33:886][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.30-15.20.33:954][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.30-15.20.33:960][  0]LogInit: Texture streaming: Enabled
+[2018.09.30-15.20.33:976][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.30-15.20.33:987][  0]LogInit: Transaction tracking system initialized
+[2018.09.30-15.20.34:007][  0]BlueprintLog: New page: Editor Load
+[2018.09.30-15.20.34:118][  0]LocalizationService: Localization service is disabled
+[2018.09.30-15.20.34:363][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.30-15.20.34:363][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.30-15.20.34:363][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/' took 0.01s
+[2018.09.30-15.20.34:363][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.30-15.20.34:363][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.30-15.20.34:363][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.30-15.20.34:363][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.30-15.20.34:363][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.30-15.20.34:468][  0]SourceControl: Source control is disabled
+[2018.09.30-15.20.34:471][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.20/FeaturePacks/StarterContent.upack)
+[2018.09.30-15.20.34:475][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.09.30-15.20.34:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2018.09.30-15.20.34:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2018.09.30-15.20.34:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2018.09.30-15.20.34:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2018.09.30-15.20.34:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2018.09.30-15.20.34:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2018.09.30-15.20.34:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2018.09.30-15.20.34:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.09.30-15.20.34:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.09.30-15.20.34:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.09.30-15.20.34:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.09.30-15.20.34:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Collapse01.uasset"
+[2018.09.30-15.20.34:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Collapse02.uasset"
+[2018.09.30-15.20.34:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2018.09.30-15.20.34:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Explosion01.uasset"
+[2018.09.30-15.20.34:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Explosion02.uasset"
+[2018.09.30-15.20.34:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2018.09.30-15.20.34:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Fire01.uasset"
+[2018.09.30-15.20.34:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2018.09.30-15.20.34:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2018.09.30-15.20.34:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.09.30-15.20.34:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Light01.uasset"
+[2018.09.30-15.20.34:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2018.09.30-15.20.34:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Light02.uasset"
+[2018.09.30-15.20.34:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2018.09.30-15.20.34:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Smoke01.uasset"
+[2018.09.30-15.20.34:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2018.09.30-15.20.34:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.09.30-15.20.34:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2018.09.30-15.20.34:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2018.09.30-15.20.34:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.09.30-15.20.34:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2018.09.30-15.20.34:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2018.09.30-15.20.34:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Steam01.uasset"
+[2018.09.30-15.20.34:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2018.09.30-15.20.34:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.09.30-15.20.34:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.09.30-15.20.34:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.09.30-15.20.34:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.09.30-15.20.34:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.09.30-15.20.34:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2018.09.30-15.20.34:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.09.30-15.20.34:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2018.09.30-15.20.34:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2018.09.30-15.20.34:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2018.09.30-15.20.34:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2018.09.30-15.20.34:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2018.09.30-15.20.34:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2018.09.30-15.20.34:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2018.09.30-15.20.34:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2018.09.30-15.20.34:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2018.09.30-15.20.35:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2018.09.30-15.20.35:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2018.09.30-15.20.35:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2018.09.30-15.20.35:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Maps/Minimal_Default.umap"
+[2018.09.30-15.20.35:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2018.09.30-15.20.35:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Maps/StarterMap.umap"
+[2018.09.30-15.20.35:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2018.09.30-15.20.35:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2018.09.30-15.20.35:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2018.09.30-15.20.35:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2018.09.30-15.20.35:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.09.30-15.20.35:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.09.30-15.20.35:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.09.30-15.20.35:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.09.30-15.20.35:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.09.30-15.20.35:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.09.30-15.20.35:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.09.30-15.20.35:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.09.30-15.20.35:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.09.30-15.20.35:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2018.09.30-15.20.35:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.09.30-15.20.35:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.09.30-15.20.35:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.09.30-15.20.35:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.09.30-15.20.35:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Glass.uasset"
+[2018.09.30-15.20.35:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2018.09.30-15.20.35:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.09.30-15.20.35:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2018.09.30-15.20.35:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.09.30-15.20.35:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.09.30-15.20.35:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.09.30-15.20.35:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2018.09.30-15.20.35:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2018.09.30-15.20.35:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2018.09.30-15.20.35:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2018.09.30-15.20.35:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.09.30-15.20.35:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.09.30-15.20.35:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.09.30-15.20.35:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2018.09.30-15.20.35:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.09.30-15.20.35:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.09.30-15.20.35:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2018.09.30-15.20.35:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2018.09.30-15.20.35:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2018.09.30-15.20.35:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2018.09.30-15.20.35:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.09.30-15.20.35:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.09.30-15.20.35:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2018.09.30-15.20.35:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2018.09.30-15.20.35:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.09.30-15.20.35:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.09.30-15.20.35:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/P_Explosion.uasset"
+[2018.09.30-15.20.35:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/P_Fire.uasset"
+[2018.09.30-15.20.35:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/P_Smoke.uasset"
+[2018.09.30-15.20.35:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/P_Sparks.uasset"
+[2018.09.30-15.20.35:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2018.09.30-15.20.35:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2018.09.30-15.20.35:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.09.30-15.20.35:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.09.30-15.20.35:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.09.30-15.20.35:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.09.30-15.20.35:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2018.09.30-15.20.35:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.09.30-15.20.35:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.09.30-15.20.35:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.09.30-15.20.35:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2018.09.30-15.20.35:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/MaterialSphere.uasset"
+[2018.09.30-15.20.35:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_Bush.uasset"
+[2018.09.30-15.20.35:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_Chair.uasset"
+[2018.09.30-15.20.35:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2018.09.30-15.20.35:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_Couch.uasset"
+[2018.09.30-15.20.35:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_Door.uasset"
+[2018.09.30-15.20.35:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2018.09.30-15.20.35:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2018.09.30-15.20.35:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.09.30-15.20.35:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.09.30-15.20.35:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.09.30-15.20.35:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2018.09.30-15.20.35:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2018.09.30-15.20.35:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_Rock.uasset"
+[2018.09.30-15.20.35:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_Shelf.uasset"
+[2018.09.30-15.20.35:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_Stairs.uasset"
+[2018.09.30-15.20.35:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_Statue.uasset"
+[2018.09.30-15.20.35:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_TableRound.uasset"
+[2018.09.30-15.20.35:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2018.09.30-15.20.35:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2018.09.30-15.20.35:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2018.09.30-15.20.35:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2018.09.30-15.20.35:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2018.09.30-15.20.35:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2018.09.30-15.20.35:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.09.30-15.20.35:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.09.30-15.20.35:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2018.09.30-15.20.35:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2018.09.30-15.20.35:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2018.09.30-15.20.35:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.09.30-15.20.35:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2018.09.30-15.20.35:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2018.09.30-15.20.35:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2018.09.30-15.20.35:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.09.30-15.20.35:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.09.30-15.20.35:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2018.09.30-15.20.35:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.09.30-15.20.35:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.09.30-15.20.35:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2018.09.30-15.20.35:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.09.30-15.20.35:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2018.09.30-15.20.35:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2018.09.30-15.20.35:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2018.09.30-15.20.35:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.09.30-15.20.35:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.09.30-15.20.35:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.09.30-15.20.35:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2018.09.30-15.20.35:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.09.30-15.20.35:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.09.30-15.20.35:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.09.30-15.20.35:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.09.30-15.20.35:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.09.30-15.20.35:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.09.30-15.20.35:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.09.30-15.20.35:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.09.30-15.20.35:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.09.30-15.20.35:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.09.30-15.20.35:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.09.30-15.20.35:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.09.30-15.20.35:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.09.30-15.20.35:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.09.30-15.20.36:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.09.30-15.20.36:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.09.30-15.20.36:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2018.09.30-15.20.36:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2018.09.30-15.20.36:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2018.09.30-15.20.36:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.09.30-15.20.36:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.09.30-15.20.36:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2018.09.30-15.20.36:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2018.09.30-15.20.36:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.09.30-15.20.36:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.09.30-15.20.36:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.09.30-15.20.36:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.09.30-15.20.36:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.09.30-15.20.36:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.09.30-15.20.36:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.09.30-15.20.36:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.09.30-15.20.36:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.09.30-15.20.36:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.09.30-15.20.36:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.09.30-15.20.36:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.09.30-15.20.36:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.09.30-15.20.36:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.09.30-15.20.36:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.09.30-15.20.36:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.09.30-15.20.36:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.09.30-15.20.36:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.09.30-15.20.36:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.09.30-15.20.36:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Door_M.uasset"
+[2018.09.30-15.20.36:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Door_N.uasset"
+[2018.09.30-15.20.36:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.09.30-15.20.36:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.09.30-15.20.36:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.09.30-15.20.36:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.09.30-15.20.36:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2018.09.30-15.20.36:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2018.09.30-15.20.36:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2018.09.30-15.20.36:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.09.30-15.20.36:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.09.30-15.20.36:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.09.30-15.20.36:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.09.30-15.20.36:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.09.30-15.20.36:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.09.30-15.20.36:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2018.09.30-15.20.37:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2018.09.30-15.20.37:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2018.09.30-15.20.37:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.09.30-15.20.37:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.09.30-15.20.37:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.09.30-15.20.37:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.09.30-15.20.37:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.09.30-15.20.37:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.09.30-15.20.37:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.09.30-15.20.37:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.09.30-15.20.37:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.09.30-15.20.37:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2018.09.30-15.20.37:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2018.09.30-15.20.37:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.09.30-15.20.37:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.09.30-15.20.37:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.09.30-15.20.37:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.09.30-15.20.37:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.09.30-15.20.37:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.09.30-15.20.37:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.09.30-15.20.37:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.09.30-15.20.37:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2018.09.30-15.20.37:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2018.09.30-15.20.37:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.09.30-15.20.37:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.09.30-15.20.37:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.09.30-15.20.37:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2018.09.30-15.20.37:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2018.09.30-15.20.37:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2018.09.30-15.20.37:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2018.09.30-15.20.37:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2018.09.30-15.20.37:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.09.30-15.20.37:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.09.30-15.20.37:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2018.09.30-15.20.37:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2018.09.30-15.20.37:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.09.30-15.20.37:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.09.30-15.20.37:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Water_M.uasset"
+[2018.09.30-15.20.37:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Water_N.uasset"
+[2018.09.30-15.20.37:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.09.30-15.20.38:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.09.30-15.20.38:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.09.30-15.20.38:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.09.30-15.20.38:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.09.30-15.20.38:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.09.30-15.20.38:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.09.30-15.20.38:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.09.30-15.20.38:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.09.30-15.20.38:285][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.09.30-15.20.38:343][  0]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/Floor_400x40035FE4C00465E74833D5E6C88802163B6.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2018.09.30-15.20.38:350][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2018.09.30-15.20.38:351][  0]Cmd: MAP LOAD FILE="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStickCPP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.30-15.20.38:352][  0]LightingResults: New page: Lighting Build
+[2018.09.30-15.20.38:354][  0]MapCheck: New page: Map Check
+[2018.09.30-15.20.38:354][  0]LightingResults: New page: Lighting Build
+[2018.09.30-15.20.38:614][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.09.30-15.20.38:623][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.30-15.20.38:646][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.30-15.20.38:695][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.898ms to complete.
+[2018.09.30-15.20.38:695][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 0.344
+[2018.09.30-15.20.38:856][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.30-15.20.38:862][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.30-15.20.38:868][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.30-15.20.38:874][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.30-15.20.38:882][  0]LogCollectionManager: Loaded 0 collections in 0.001069 seconds
+[2018.09.30-15.20.38:947][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/Collections/' took 0.01s
+[2018.09.30-15.20.38:947][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/Developers/ThomasSimon/Collections/' took 0.01s
+[2018.09.30-15.20.38:947][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/Collections/' took 0.01s
+[2018.09.30-15.20.38:947][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.30-15.20.38:958][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2576 classes and 607 folders.
+[2018.09.30-15.20.38:965][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.30-15.20.38:995][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.30-15.20.39:031][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.30-15.20.39:034][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.30-15.20.39:042][  0]LogSlate: Took 0.002627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.30-15.20.39:103][  0]LogRenderer: Reallocating scene render targets to support 1208x684 Format 10 NumSamples 1 (Frame:1).
+[2018.09.30-15.20.39:147][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.30-15.20.39:221][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.30-15.20.39:221][  0]LogLoad: (Engine Initialization) Total time: 10.92 seconds
+[2018.09.30-15.20.39:221][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.30-15.20.39:231][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.30-15.20.39:315][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.30-15.20.39:365][  3]LogAssetRegistry: Asset discovery search completed in 7.8467 seconds
+[2018.09.30-15.20.39:367][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.30-15.20.39:368][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000169 seconds (updated 0 objects)
+[2018.09.30-15.20.49:450][208]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.30-15.20.53:089][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.30-15.21.00:766][537]LogRenderer: Reallocating scene render targets to support 1212x684 Format 10 NumSamples 1 (Frame:2122).
+[2018.09.30-15.21.00:804][538]LogRenderer: Reallocating scene render targets to support 1220x684 Format 10 NumSamples 1 (Frame:2124).
+[2018.09.30-15.21.00:844][539]LogRenderer: Reallocating scene render targets to support 1232x684 Format 10 NumSamples 1 (Frame:2126).
+[2018.09.30-15.21.00:881][540]LogRenderer: Reallocating scene render targets to support 1240x684 Format 10 NumSamples 1 (Frame:2128).
+[2018.09.30-15.21.00:921][541]LogRenderer: Reallocating scene render targets to support 1260x684 Format 10 NumSamples 1 (Frame:2130).
+[2018.09.30-15.21.00:956][542]LogRenderer: Reallocating scene render targets to support 1272x684 Format 10 NumSamples 1 (Frame:2132).
+[2018.09.30-15.21.00:993][543]LogRenderer: Reallocating scene render targets to support 1276x684 Format 10 NumSamples 1 (Frame:2134).
+[2018.09.30-15.21.01:031][544]LogRenderer: Reallocating scene render targets to support 1284x684 Format 10 NumSamples 1 (Frame:2136).
+[2018.09.30-15.25.35:151][412]LogRenderer: Reallocating scene render targets to support 1284x924 Format 10 NumSamples 1 (Frame:4578).
+[2018.09.30-15.25.48:424][956]LogRenderer: Reallocating scene render targets to support 1584x924 Format 10 NumSamples 1 (Frame:5370).
+[2018.09.30-15.25.53:455][523]LogSlate: Window 'Content Browser' being destroyed
+[2018.09.30-15.25.58:293][877]LogSlate: Window 'Content Browser' being destroyed
+[2018.09.30-15.26.00:325][118]LogSlate: Window 'Content Browser' being destroyed
+[2018.09.30-15.26.07:470][974]LogSlate: Window 'Content Browser' being destroyed
+[2018.09.30-15.26.33:361][698]LogSlate: Window 'Content Browser' being destroyed
+[2018.09.30-15.26.37:766][221]LogSlate: Window 'World Outliner' being destroyed
+[2018.09.30-15.26.41:054][610]LogSlate: Window 'Modes' being destroyed
+[2018.09.30-16.03.05:356][411]Candidate modules for hot reload:
+[2018.09.30-16.03.05:356][411]  TinyShooter1
+[2018.09.30-16.03.05:356][411]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TinyShooter1,2435 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" ]
+[2018.09.30-16.03.05:368][411]Warning: Starting HotReload took  0.1s.
+[2018.09.30-16.04.26:906][335]CompilerResultsLog: New page: Compilation - 30 Sep 2018 18:04:26
+[2018.09.30-16.04.26:906][335]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2018.09.30-16.04.26:906][335]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.09.30-16.04.26:906][335]CompilerResultsLog: Creating makefile for hot reloading TinyShooter1Editor (no existing makefile)
+[2018.09.30-16.04.26:906][335]CompilerResultsLog: Compiling game modules for hot reload
+[2018.09.30-16.04.26:906][335]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.09.30-16.04.26:906][335]CompilerResultsLog: Parsing headers for TinyShooter1Editor
+[2018.09.30-16.04.26:906][335]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\TinyShooter1.uproject" "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\TinyShooter1Editor\Development\TinyShooter1Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.09.30-16.04.26:906][335]CompilerResultsLog: Reflection code generated for TinyShooter1Editor in 10.5554566 seconds
+[2018.09.30-16.04.26:906][335]CompilerResultsLog: Building 6 actions with 4 processes...
+[2018.09.30-16.04.26:906][335]CompilerResultsLog:   [1/6] TinyShooter1.init.gen.cpp
+[2018.09.30-16.04.26:906][335]CompilerResultsLog:   [2/6] TinyShooter1GameMode.cpp
+[2018.09.30-16.04.26:906][335]CompilerResultsLog:   [3/6] TinyShooter1Pawn.gen.cpp
+[2018.09.30-16.04.26:906][335]CompilerResultsLog:   [4/6] TinyShooter1Pawn.cpp
+[2018.09.30-16.04.26:906][335]CompilerResultsLog:   [5/6] UE4Editor-TinyShooter1-2435.lib
+[2018.09.30-16.04.26:906][335]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-2435.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-2435.exp
+[2018.09.30-16.04.26:906][335]CompilerResultsLog:   [6/6] UE4Editor-TinyShooter1-2435.dll
+[2018.09.30-16.04.26:906][335]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-2435.suppressed.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-2435.suppressed.exp
+[2018.09.30-16.04.26:906][335]CompilerResultsLog: Total build time: 81.20 seconds (Parallel executor: 66.01 seconds)
+[2018.09.30-16.04.26:907][335]LogMainFrame: MainFrame: Module compiling took 81.574 seconds
+[2018.09.30-16.04.26:944][335]LogClass: Could not find existing class TinyShooter1Pawn in package /Script/TinyShooter1 for HotReload, assuming new class
+[2018.09.30-16.04.26:947][335]LogHotReload: Re-instancing TinyShooter1GameMode after hot-reload.
+[2018.09.30-16.04.27:019][335]LogHotReload: Re-instancing TinyShooter1Pawn after hot-reload.
+[2018.09.30-16.04.27:076][335]LogContentBrowser: Native class hierarchy updated for 'TinyShooter1' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2018.09.30-16.04.27:078][335]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.09.30-16.04.27:165][335]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2576 classes and 607 folders.
+[2018.09.30-16.04.27:169][335]Display: HotReload took 81.9s.
+[2018.09.30-16.04.32:005][358]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.30-16.04.32:141][358]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/TwinStickExampleMap7A16849549245BC2D4CC2DA8703FC6DA.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStickCPP/Maps/TwinStickExampleMap.umap'
+[2018.09.30-16.04.32:292][358]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/TwinStickExampleMap_BuiltDataC8C5137A4DA336172C953D84F2531986.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2018.09.30-16.05.46:673][188]LogSlate: Took 0.005357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.30-16.06.24:873][677]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -invalidatemakefilesonly
+[2018.09.30-16.06.25:485][677]Invalidating makefiles only in this run.
+[2018.09.30-16.06.25:611][677]Candidate modules for hot reload:
+[2018.09.30-16.06.25:611][677]  TinyShooter1
+[2018.09.30-16.06.25:611][677]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TinyShooter1,2962 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" ]
+[2018.09.30-16.06.42:418][677]CompilerResultsLog: New page: Compilation - 30 Sep 2018 18:06:42
+[2018.09.30-16.06.42:418][677]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.09.30-16.06.42:418][677]CompilerResultsLog: Creating makefile for hot reloading TinyShooter1Editor (no existing makefile)
+[2018.09.30-16.06.42:418][677]CompilerResultsLog: Compiling game modules for hot reload
+[2018.09.30-16.06.42:418][677]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.09.30-16.06.42:418][677]CompilerResultsLog: Parsing headers for TinyShooter1Editor
+[2018.09.30-16.06.42:418][677]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\TinyShooter1.uproject" "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\TinyShooter1Editor\Development\TinyShooter1Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.09.30-16.06.42:418][677]CompilerResultsLog: Reflection code generated for TinyShooter1Editor in 8.5740849 seconds
+[2018.09.30-16.06.42:418][677]CompilerResultsLog: Building 12 actions with 4 processes...
+[2018.09.30-16.06.42:418][677]CompilerResultsLog:   [1/12] TinyShooter1.cpp
+[2018.09.30-16.06.42:418][677]CompilerResultsLog:   [2/12] MyFloatingPawnMovement.cpp
+[2018.09.30-16.06.42:418][677]CompilerResultsLog:   [3/12] TinyShooter1GameMode.cpp
+[2018.09.30-16.06.42:418][677]CompilerResultsLog:   [4/12] TinyShooter1Pawn.cpp
+[2018.09.30-16.06.42:418][677]CompilerResultsLog:   [5/12] TinyShooter1.init.gen.cpp
+[2018.09.30-16.06.42:418][677]CompilerResultsLog:   [6/12] TinyShooter1Projectile.cpp
+[2018.09.30-16.06.42:418][677]CompilerResultsLog:   [7/12] MyFloatingPawnMovement.gen.cpp
+[2018.09.30-16.06.42:418][677]CompilerResultsLog:   [8/12] TinyShooter1GameMode.gen.cpp
+[2018.09.30-16.06.42:418][677]CompilerResultsLog:   [9/12] TinyShooter1Projectile.gen.cpp
+[2018.09.30-16.06.42:418][677]CompilerResultsLog:   [10/12] TinyShooter1Pawn.gen.cpp
+[2018.09.30-16.06.42:418][677]CompilerResultsLog:   [11/12] UE4Editor-TinyShooter1-2962.lib
+[2018.09.30-16.06.42:418][677]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-2962.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-2962.exp
+[2018.09.30-16.06.42:418][677]CompilerResultsLog:   [12/12] UE4Editor-TinyShooter1-2962.dll
+[2018.09.30-16.06.42:418][677]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-2962.suppressed.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-2962.suppressed.exp
+[2018.09.30-16.06.42:418][677]CompilerResultsLog: Total build time: 16.59 seconds (Parallel executor: 3.95 seconds)
+[2018.09.30-16.06.42:418][677]LogMainFrame: MainFrame: Module compiling took 16.819 seconds
+[2018.09.30-16.06.42:453][677]LogClass: Could not find existing class MyFloatingPawnMovement in package /Script/TinyShooter1 for HotReload, assuming new class
+[2018.09.30-16.06.42:458][677]LogContentBrowser: Native class hierarchy updated for 'TinyShooter1' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2018.09.30-16.06.42:461][677]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.09.30-16.06.42:513][677]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2577 classes and 607 folders.
+[2018.09.30-16.06.42:513][677]Display: HotReload took 16.9s.
+[2018.09.30-16.06.42:514][677]Warning: HotReload operation took 16.9s.
+[2018.09.30-16.06.42:806][677]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.09.30-16.06.42:810][677]LogHotReload: New module detected: UE4Editor-TinyShooter1-2962.dll
+[2018.09.30-16.06.42:821][677]LogContentBrowser: Verbose: The majority of assets in the view are of type: Class
+[2018.09.30-16.06.42:845][678]LogHotReload: Starting Hot-Reload from IDE
+[2018.09.30-16.06.42:895][678]LogContentBrowser: Native class hierarchy updated for 'TinyShooter1' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2018.09.30-16.06.42:898][678]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.09.30-16.06.42:929][678]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2577 classes and 607 folders.
+[2018.09.30-16.06.42:941][678]Display: HotReload took  0.1s.
+[2018.09.30-16.13.22:258][875]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2018.09.30-16.14.08:967][841]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.09.30-16.14.28:416][150]LogContentBrowser: Verbose: The majority of assets in the view are of type: Blueprint
+[2018.09.30-16.14.29:842][318]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TwinStick/Blueprints/Bp_TinyShooter1Pawn.Bp_TinyShooter1Pawn
+[2018.09.30-16.14.30:342][318]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.09.30-16.14.36:634][951]LogSlate: Took 0.004017 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.30-16.14.37:764][ 76]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/Bp_TinyShooter1PawnC9A8CABC4C2D1334065182828691DD26.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStick/Blueprints/Bp_TinyShooter1Pawn.uasset'
+[2018.09.30-16.14.38:220][129]BlueprintLog: New page: Compile Bp_TinyShooter1Pawn
+[2018.09.30-16.14.40:301][337]LogLinker: Warning: Asset 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStickCPP/TwinStickOverview.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.09.30-16.14.40:305][337]LogSlate: Window 'Tutorials' being destroyed
+[2018.09.30-16.14.46:107][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.30-16.14.53:743][889]LogSlate: Window 'Bp_TinyShooter1Pawn' being destroyed
+[2018.09.30-16.14.53:747][889]LogSlate: Window 'Bp_TinyShooter1Pawn' being destroyed
+[2018.09.30-16.14.59:298][349]Candidate modules for hot reload:
+[2018.09.30-16.14.59:298][349]  TinyShooter1
+[2018.09.30-16.14.59:298][349]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TinyShooter1,738 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" ]
+[2018.09.30-16.14.59:306][349]Warning: Starting HotReload took  0.0s.
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog: New page: Compilation - 30 Sep 2018 18:15:13
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog: Compiling game modules for hot reload
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog: Parsing headers for TinyShooter1Editor
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\TinyShooter1.uproject" "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\TinyShooter1Editor\Development\TinyShooter1Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog: Reflection code generated for TinyShooter1Editor in 9.6299875 seconds
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog: Building 6 actions with 4 processes...
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog:   [1/6] TinyShooter1.init.gen.cpp
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog:   [2/6] TinyShooter1GameMode.cpp
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog:   [3/6] TinyShooter1Pawn.gen.cpp
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog:   [4/6] TinyShooter1Pawn.cpp
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog:   [5/6] UE4Editor-TinyShooter1-738.lib
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-738.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-738.exp
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog:   [6/6] UE4Editor-TinyShooter1-738.dll
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-738.suppressed.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-738.suppressed.exp
+[2018.09.30-16.15.13:648][ 60]CompilerResultsLog: Total build time: 14.11 seconds (Parallel executor: 3.09 seconds)
+[2018.09.30-16.15.13:648][ 60]LogMainFrame: MainFrame: Module compiling took 14.366 seconds
+[2018.09.30-16.15.13:689][ 60]LogClass: Could not find existing class TinyShooter1Pawn in package /Script/TinyShooter1 for HotReload, assuming new class
+[2018.09.30-16.15.13:692][ 60]LogHotReload: Re-instancing TinyShooter1GameMode after hot-reload.
+[2018.09.30-16.15.13:782][ 60]LogHotReload: Re-instancing TinyShooter1Pawn after hot-reload.
+[2018.09.30-16.15.13:959][ 60]LogContentBrowser: Native class hierarchy updated for 'TinyShooter1' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2018.09.30-16.15.13:962][ 60]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.09.30-16.15.14:264][ 60]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2577 classes and 607 folders.
+[2018.09.30-16.15.14:264][ 60]Display: HotReload took 15.0s.
+[2018.09.30-16.15.17:683][449]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TwinStick/Blueprints/Bp_TinyShooter1Pawn.Bp_TinyShooter1Pawn
+[2018.09.30-16.15.23:350][ 58]LogSlate: Window 'Bp_TinyShooter1Pawn' being destroyed
+[2018.09.30-16.15.23:427][ 58]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TwinStick/Blueprints/Bp_TinyShooter1Pawn.Bp_TinyShooter1Pawn
+[2018.09.30-16.15.28:285][580]LogSlate: Window 'Bp_TinyShooter1Pawn' being destroyed
+[2018.09.30-16.16.09:729][894]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.09.30-16.16.09:781][895]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TinyShooter1
+[2018.09.30-16.16.09:781][895]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.30-16.16.09:781][895]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.09.30-16.16.09:781][895]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.30-16.16.09:781][895]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.09.30-16.16.09:781][895]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.09.30-16.16.38:099][278]LogSlate: Window 'Project Settings' being destroyed
+[2018.09.30-16.16.38:103][278]LogSlate: Window 'Project Settings' being destroyed
+[2018.09.30-16.38.55:252][377]Candidate modules for hot reload:
+[2018.09.30-16.38.55:252][377]  TinyShooter1
+[2018.09.30-16.38.55:252][377]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TinyShooter1,3664 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" ]
+[2018.09.30-16.38.55:259][377]Warning: Starting HotReload took  0.0s.
+[2018.09.30-16.39.13:180][515]CompilerResultsLog: New page: Compilation - 30 Sep 2018 18:39:13
+[2018.09.30-16.39.13:181][515]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.09.30-16.39.13:181][515]CompilerResultsLog: Creating makefile for hot reloading TinyShooter1Editor (ini files are newer than UBTMakefile)
+[2018.09.30-16.39.13:181][515]CompilerResultsLog: Compiling game modules for hot reload
+[2018.09.30-16.39.13:181][515]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.09.30-16.39.13:181][515]CompilerResultsLog: Parsing headers for TinyShooter1Editor
+[2018.09.30-16.39.13:181][515]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\TinyShooter1.uproject" "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\TinyShooter1Editor\Development\TinyShooter1Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.09.30-16.39.13:181][515]CompilerResultsLog: Reflection code generated for TinyShooter1Editor in 9.5330655 seconds
+[2018.09.30-16.39.13:181][515]CompilerResultsLog: Building 6 actions with 4 processes...
+[2018.09.30-16.39.13:181][515]CompilerResultsLog:   [1/6] TinyShooter1.init.gen.cpp
+[2018.09.30-16.39.13:181][515]CompilerResultsLog:   [2/6] MyFloatingPawnMovement.cpp
+[2018.09.30-16.39.13:181][515]CompilerResultsLog:   [3/6] MyFloatingPawnMovement.gen.cpp
+[2018.09.30-16.39.13:181][515]CompilerResultsLog:   [4/6] TinyShooter1Pawn.cpp
+[2018.09.30-16.39.13:181][515]CompilerResultsLog:   [5/6] UE4Editor-TinyShooter1-3664.lib
+[2018.09.30-16.39.13:181][515]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-3664.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-3664.exp
+[2018.09.30-16.39.13:181][515]CompilerResultsLog:   [6/6] UE4Editor-TinyShooter1-3664.dll
+[2018.09.30-16.39.13:181][515]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-3664.suppressed.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-3664.suppressed.exp
+[2018.09.30-16.39.13:181][515]CompilerResultsLog: Total build time: 17.67 seconds (Parallel executor: 3.45 seconds)
+[2018.09.30-16.39.13:181][515]LogMainFrame: MainFrame: Module compiling took 17.945 seconds
+[2018.09.30-16.39.13:257][515]LogClass: Could not find existing class MyFloatingPawnMovement in package /Script/TinyShooter1 for HotReload, assuming new class
+[2018.09.30-16.39.13:270][515]LogHotReload: Re-instancing MyFloatingPawnMovement after hot-reload.
+[2018.09.30-16.39.13:392][515]LogHotReload: Re-instancing TinyShooter1Pawn after hot-reload.
+[2018.09.30-16.39.13:638][515]LogContentBrowser: Native class hierarchy updated for 'TinyShooter1' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2018.09.30-16.39.13:642][515]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.09.30-16.39.13:974][515]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2577 classes and 607 folders.
+[2018.09.30-16.39.13:974][515]Display: HotReload took 18.7s.
+[2018.09.30-16.39.16:740][832]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.30-16.39.16:760][832]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.09.30-16.39.16:761][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.30-16.39.16:778][832]PIE: New page: PIE session: TwinStickExampleMap (30 Sep 2018 18:39:16)
+[2018.09.30-16.39.16:778][832]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.09.30-16.39.16:791][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013025s)
+[2018.09.30-16.39.16:792][832]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.09.30-16.39.16:792][832]LogPlayLevel: PIE: World Init took: (0.001304s)
+[2018.09.30-16.39.16:792][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.014533s)
+[2018.09.30-16.39.16:845][832]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.30-16.39.16:852][832]LogInit: FAudioDevice initialized.
+[2018.09.30-16.39.16:898][832]LogLoad: Game class is 'TinyShooter1GameMode'
+[2018.09.30-16.39.16:907][832]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2018.09.30-17.39.16
+[2018.09.30-16.39.16:909][832]LogWorld: Bringing up level for play took: 0.003013
+[2018.09.30-16.39.16:955][832]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.09.30-16.39.16:957][832]PIE: Play in editor start time for /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap -0.23
+[2018.09.30-16.39.16:957][832]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.09.30-16.39.36:885][210]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.09.30-16.39.36:891][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.30-16.39.36:925][210]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.30-16.39.36:925][210]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.09.30-16.39.36:959][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.30-16.39.36:992][212]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.09.30-16.39.38:383][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.30-16.39.38:674][389]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/TwinStickExampleMapFAA92DE1435BA87930CAF38D159F6588.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStickCPP/Maps/TwinStickExampleMap.umap'
+[2018.09.30-16.39.38:774][389]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/TwinStickExampleMap_BuiltDataD9C0548449DE18272B7490B1F40938EA.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2018.09.30-17.45.43:563][887]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/TwinStickExampleMapFB3E7A1F41718D5CE585E0AEC87486E4.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStickCPP/Maps/TwinStickExampleMap.umap'
+[2018.09.30-17.45.43:664][887]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/TwinStickExampleMap_BuiltData22188E67423BD22F31FC0187C93F79B7.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2018.09.30-17.46.27:154][331]LogSlate: Window 'TinyShooter1 - Unreal Editor' being destroyed
+[2018.09.30-17.46.27:331][332]Cmd: QUIT_EDITOR
+[2018.09.30-17.46.27:370][332]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.30-17.46.27:381][332]LogExit: Preparing to exit.
+[2018.09.30-17.46.28:512][332]LogExit: Editor shut down
+[2018.09.30-17.46.28:513][332]LogExit: Transaction tracking system shut down
+[2018.09.30-17.46.29:032][332]LogExit: Object subsystem successfully closed.
+[2018.09.30-17.46.29:059][332]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.09.30-17.46.29:078][332]LogD3D11RHI: Shutdown
+[2018.09.30-17.46.29:078][332]LogD3D11RHI: CleanupD3DDevice
+[2018.09.30-17.46.29:086][332]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.09.30-17.46.29:142][332]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (625)
+[2018.09.30-17.46.29:142][332]LogModuleManager: Shutting down and abandoning module Voice (623)
+[2018.09.30-17.46.29:143][332]LogModuleManager: Shutting down and abandoning module TinyShooter1 (621)
+[2018.09.30-17.46.29:143][332]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (620)
+[2018.09.30-17.46.29:143][332]LogModuleManager: Shutting down and abandoning module BlueprintGraph (617)
+[2018.09.30-17.46.29:143][332]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.09.30-17.46.29:143][332]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
+[2018.09.30-17.46.29:148][332]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
+[2018.09.30-17.46.29:148][332]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
+[2018.09.30-17.46.29:148][332]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
+[2018.09.30-17.46.29:148][332]LogModuleManager: Shutting down and abandoning module SceneOutliner (602)
+[2018.09.30-17.46.29:148][332]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2018.09.30-17.46.29:148][332]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2018.09.30-17.46.29:149][332]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2018.09.30-17.46.29:149][332]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2018.09.30-17.46.29:149][332]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2018.09.30-17.46.29:149][332]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2018.09.30-17.46.29:149][332]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2018.09.30-17.46.29:149][332]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2018.09.30-17.46.29:149][332]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2018.09.30-17.46.29:149][332]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2018.09.30-17.46.29:150][332]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2018.09.30-17.46.29:150][332]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2018.09.30-17.46.29:150][332]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2018.09.30-17.46.29:150][332]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2018.09.30-17.46.29:151][332]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2018.09.30-17.46.29:152][332]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2018.09.30-17.46.29:153][332]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2018.09.30-17.46.29:153][332]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2018.09.30-17.46.29:155][332]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2018.09.30-17.46.29:155][332]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2018.09.30-17.46.29:155][332]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2018.09.30-17.46.29:156][332]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2018.09.30-17.46.29:158][332]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2018.09.30-17.46.29:158][332]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2018.09.30-17.46.29:160][332]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2018.09.30-17.46.29:161][332]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2018.09.30-17.46.29:161][332]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2018.09.30-17.46.29:161][332]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2018.09.30-17.46.29:161][332]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2018.09.30-17.46.29:161][332]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2018.09.30-17.46.29:161][332]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2018.09.30-17.46.30:198][332]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2018.09.30-17.46.30:198][332]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2018.09.30-17.46.30:198][332]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2018.09.30-17.46.30:198][332]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2018.09.30-17.46.30:198][332]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2018.09.30-17.46.30:204][332]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2018.09.30-17.46.30:205][332]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2018.09.30-17.46.30:206][332]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2018.09.30-17.46.30:206][332]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2018.09.30-17.46.30:206][332]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2018.09.30-17.46.30:206][332]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2018.09.30-17.46.30:207][332]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2018.09.30-17.46.30:207][332]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2018.09.30-17.46.30:207][332]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2018.09.30-17.46.30:207][332]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2018.09.30-17.46.30:208][332]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2018.09.30-17.46.30:208][332]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2018.09.30-17.46.30:210][332]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2018.09.30-17.46.30:211][332]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2018.09.30-17.46.30:211][332]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2018.09.30-17.46.30:212][332]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2018.09.30-17.46.30:212][332]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2018.09.30-17.46.30:265][332]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2018.09.30-17.46.30:266][332]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2018.09.30-17.46.30:267][332]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2018.09.30-17.46.30:269][332]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2018.09.30-17.46.30:269][332]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2018.09.30-17.46.30:269][332]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2018.09.30-17.46.30:270][332]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2018.09.30-17.46.30:271][332]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2018.09.30-17.46.30:271][332]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2018.09.30-17.46.30:271][332]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2018.09.30-17.46.30:278][332]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2018.09.30-17.46.30:278][332]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2018.09.30-17.46.30:279][332]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2018.09.30-17.46.30:279][332]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2018.09.30-17.46.30:279][332]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.09.30-17.46.30:280][332]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.09.30-17.46.30:280][332]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.09.30-17.46.30:281][332]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.09.30-17.46.30:281][332]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.09.30-17.46.30:281][332]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.09.30-17.46.30:281][332]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.09.30-17.46.30:282][332]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.09.30-17.46.30:282][332]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.09.30-17.46.30:282][332]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.09.30-17.46.30:282][332]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.09.30-17.46.30:282][332]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.09.30-17.46.30:282][332]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.09.30-17.46.30:282][332]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.09.30-17.46.30:283][332]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.09.30-17.46.30:283][332]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.09.30-17.46.30:284][332]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.09.30-17.46.30:284][332]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2018.09.30-17.46.30:309][332]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2018.09.30-17.46.30:310][332]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2018.09.30-17.46.30:310][332]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2018.09.30-17.46.30:310][332]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2018.09.30-17.46.30:310][332]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2018.09.30-17.46.30:310][332]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2018.09.30-17.46.30:310][332]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2018.09.30-17.46.30:311][332]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2018.09.30-17.46.30:311][332]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2018.09.30-17.46.30:311][332]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2018.09.30-17.46.30:311][332]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2018.09.30-17.46.30:311][332]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2018.09.30-17.46.30:311][332]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.09.30-17.46.30:311][332]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.09.30-17.46.30:313][332]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.09.30-17.46.30:313][332]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.09.30-17.46.30:313][332]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.09.30-17.46.30:313][332]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.09.30-17.46.30:319][332]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2018.09.30-17.46.30:319][332]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2018.09.30-17.46.30:319][332]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2018.09.30-17.46.30:319][332]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2018.09.30-17.46.30:319][332]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2018.09.30-17.46.30:319][332]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2018.09.30-17.46.30:319][332]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2018.09.30-17.46.30:319][332]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2018.09.30-17.46.30:319][332]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2018.09.30-17.46.30:319][332]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2018.09.30-17.46.30:319][332]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2018.09.30-17.46.30:320][332]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2018.09.30-17.46.30:321][332]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2018.09.30-17.46.30:321][332]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2018.09.30-17.46.30:322][332]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2018.09.30-17.46.30:323][332]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2018.09.30-17.46.30:323][332]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2018.09.30-17.46.30:323][332]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2018.09.30-17.46.30:324][332]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2018.09.30-17.46.30:324][332]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2018.09.30-17.46.30:324][332]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2018.09.30-17.46.30:324][332]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2018.09.30-17.46.30:324][332]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2018.09.30-17.46.30:325][332]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2018.09.30-17.46.30:326][332]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2018.09.30-17.46.30:327][332]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2018.09.30-17.46.30:327][332]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2018.09.30-17.46.30:327][332]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2018.09.30-17.46.30:327][332]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2018.09.30-17.46.30:327][332]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2018.09.30-17.46.30:327][332]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2018.09.30-17.46.30:329][332]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2018.09.30-17.46.30:329][332]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.09.30-17.46.30:329][332]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.09.30-17.46.30:329][332]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.09.30-17.46.30:329][332]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.09.30-17.46.30:330][332]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.09.30-17.46.30:330][332]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.09.30-17.46.30:330][332]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.09.30-17.46.30:330][332]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.09.30-17.46.30:330][332]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.09.30-17.46.30:431][332]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.09.30-17.46.30:533][332]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.09.30-17.46.30:533][332]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.09.30-17.46.30:533][332]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.09.30-17.46.30:533][332]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.09.30-17.46.30:533][332]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.09.30-17.46.30:533][332]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.09.30-17.46.30:534][332]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.09.30-17.46.30:535][332]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.09.30-17.46.30:537][332]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.09.30-17.46.30:537][332]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.09.30-17.46.30:537][332]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.09.30-17.46.30:537][332]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.09.30-17.46.30:538][332]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.09.30-17.46.30:538][332]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.09.30-17.46.30:538][332]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.09.30-17.46.30:538][332]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.09.30-17.46.30:539][332]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.09.30-17.46.30:539][332]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.09.30-17.46.30:540][332]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.09.30-17.46.30:546][332]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.09.30-17.46.30:546][332]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.09.30-17.46.30:546][332]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.09.30-17.46.30:547][332]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.09.30-17.46.30:547][332]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.09.30-17.46.30:547][332]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.09.30-17.46.30:547][332]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.09.30-17.46.30:547][332]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.09.30-17.46.30:547][332]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.09.30-17.46.30:547][332]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.09.30-17.46.30:549][332]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.09.30-17.46.30:549][332]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.09.30-17.46.30:550][332]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.09.30-17.46.30:550][332]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.09.30-17.46.30:550][332]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.09.30-17.46.30:552][332]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.09.30-17.46.30:554][332]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.09.30-17.46.30:554][332]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.09.30-17.46.30:555][332]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.09.30-17.46.30:555][332]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.09.30-17.46.30:557][332]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.09.30-17.46.30:558][332]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.09.30-17.46.30:558][332]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.09.30-17.46.30:558][332]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.09.30-17.46.30:558][332]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.09.30-17.46.30:558][332]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.09.30-17.46.30:558][332]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.09.30-17.46.30:558][332]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.09.30-17.46.30:558][332]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.09.30-17.46.30:559][332]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.09.30-17.46.30:559][332]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.09.30-17.46.30:559][332]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.09.30-17.46.30:560][332]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.09.30-17.46.30:560][332]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.09.30-17.46.30:560][332]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.09.30-17.46.30:561][332]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.09.30-17.46.30:562][332]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.09.30-17.46.30:562][332]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.09.30-17.46.30:642][332]LogDerivedDataCache: Shutdown
+[2018.09.30-17.46.30:642][332]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.09.30-17.46.30:643][332]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.09.30-17.46.30:643][332]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.09.30-17.46.30:643][332]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.09.30-17.46.30:644][332]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.09.30-17.46.30:644][332]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.09.30-17.46.30:644][332]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.09.30-17.46.30:645][332]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.09.30-17.46.30:645][332]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.09.30-17.46.30:645][332]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.09.30-17.46.30:645][332]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.09.30-17.46.30:646][332]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.09.30-17.46.30:646][332]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.09.30-17.46.30:646][332]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.09.30-17.46.30:646][332]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.09.30-17.46.30:646][332]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.09.30-17.46.30:646][332]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.09.30-17.46.30:646][332]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.09.30-17.46.30:646][332]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.09.30-17.46.30:646][332]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.09.30-17.46.30:646][332]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.09.30-17.46.30:647][332]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.09.30-17.46.30:647][332]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.09.30-17.46.30:651][332]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.09.30-17.46.30:651][332]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.09.30-17.46.30:654][332]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.09.30-17.46.30:654][332]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.09.30-17.46.30:685][332]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.09.30-17.46.30:685][332]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.09.30-17.46.30:685][332]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.09.30-17.46.30:685][332]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.09.30-17.46.30:685][332]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.09.30-17.46.30:685][332]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.09.30-17.46.30:685][332]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.09.30-17.46.30:685][332]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.09.30-17.46.30:686][332]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.09.30-17.46.30:686][332]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.09.30-17.46.30:686][332]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.09.30-17.46.30:686][332]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.09.30-17.46.30:686][332]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.09.30-17.46.30:686][332]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.09.30-17.46.30:686][332]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.09.30-17.46.30:686][332]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.09.30-17.46.30:686][332]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.09.30-17.46.30:686][332]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.09.30-17.46.30:687][332]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.09.30-17.46.30:689][332]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.09.30-17.46.30:720][332]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.09.30-17.46.30:720][332]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.09.30-17.46.30:720][332]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B36A9F929-4FD8-5406-460D-0AA2680F9DFD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=5fdfb9eb4a3af766a039a8b9b40f75dc%7C75455451a11a4e86936f96d58b7d0fbf%7C0157599c-15ed-48c0-9aab-018aec8adfe9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.09.30-17.46.30:745][332]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.09.30-17.46.30:746][332]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.09.30-17.46.30:747][332]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.09.30-17.46.30:747][332]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.09.30-17.46.30:747][332]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.09.30-17.46.30:747][332]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.09.30-17.46.30:747][332]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.09.30-17.46.30:747][332]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.09.30-17.46.30:747][332]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.09.30-17.46.30:747][332]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.09.30-17.46.30:747][332]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.09.30-17.46.30:747][332]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.09.30-17.46.30:748][332]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.09.30-17.46.30:750][332]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.09.30-17.46.30:750][332]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.09.30-17.46.30:751][332]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.09.30-17.46.30:753][332]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.09.30-17.46.30:753][332]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.09.30-17.46.30:753][332]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.09.30-17.46.30:755][332]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.09.30-17.46.30:755][332]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.09.30-17.46.30:755][332]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.09.30-17.46.30:756][332]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.09.30-17.46.30:756][332]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.09.30-17.46.30:756][332]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.09.30-17.46.30:756][332]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.09.30-17.46.30:756][332]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.09.30-17.46.30:756][332]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.09.30-17.46.30:757][332]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.09.30-17.46.30:757][332]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.09.30-17.46.30:762][332]LogExit: Exiting.
+[2018.09.30-17.46.30:781][332]Log file closed, 09/30/18 18:46:30
