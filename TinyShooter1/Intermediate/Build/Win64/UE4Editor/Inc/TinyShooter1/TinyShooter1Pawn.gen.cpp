@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeTinyShooter1Pawn() {}
 	UPackage* Z_Construct_UPackage__Script_TinyShooter1();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	TINYSHOOTER1_API UClass* Z_Construct_UClass_UTriggerComponent_NoRegister();
 	TINYSHOOTER1_API UClass* Z_Construct_UClass_UMyFloatingPawnMovement_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
@@ -65,6 +66,10 @@ void EmptyLinkFunctionForGeneratedCodeTinyShooter1Pawn() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GunOffset_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_GunOffset;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TriggerComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TriggerComponent;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MovementComponent_MetaData[];
 #endif
@@ -155,12 +160,22 @@ void EmptyLinkFunctionForGeneratedCodeTinyShooter1Pawn() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_GunOffset = { UE4CodeGen_Private::EPropertyClass::Struct, "GunOffset", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ATinyShooter1Pawn, GunOffset), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_GunOffset_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_GunOffset_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_TriggerComponent_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Game" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "TinyShooter1Pawn.h" },
+		{ "ToolTip", "Trigger Component" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_TriggerComponent = { UE4CodeGen_Private::EPropertyClass::Object, "TriggerComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(ATinyShooter1Pawn, TriggerComponent), Z_Construct_UClass_UTriggerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_TriggerComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_TriggerComponent_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_MovementComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "TinyShooter1Pawn.h" },
-		{ "ToolTip", "movement component" },
+		{ "ToolTip", "Movement component" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_MovementComponent = { UE4CodeGen_Private::EPropertyClass::Object, "MovementComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(ATinyShooter1Pawn, MovementComponent), Z_Construct_UClass_UMyFloatingPawnMovement_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_MovementComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_MovementComponent_MetaData)) };
@@ -202,6 +217,7 @@ void EmptyLinkFunctionForGeneratedCodeTinyShooter1Pawn() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_MoveSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_FireRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_GunOffset,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_TriggerComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_MovementComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_CameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATinyShooter1Pawn_Statics::NewProp_CameraComponent,
@@ -230,7 +246,7 @@ void EmptyLinkFunctionForGeneratedCodeTinyShooter1Pawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATinyShooter1Pawn, 1584382928);
+	IMPLEMENT_CLASS(ATinyShooter1Pawn, 2434599143);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATinyShooter1Pawn(Z_Construct_UClass_ATinyShooter1Pawn, &ATinyShooter1Pawn::StaticClass, TEXT("/Script/TinyShooter1"), TEXT("ATinyShooter1Pawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATinyShooter1Pawn);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

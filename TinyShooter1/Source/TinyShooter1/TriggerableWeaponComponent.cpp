@@ -16,6 +16,16 @@ UTriggerableWeaponComponent::UTriggerableWeaponComponent()
 	// ...
 }
 
+// Called when the game starts
+void UTriggerableWeaponComponent::BeginPlay()
+{
+	Super::BeginPlay();
+
+	UTriggerComponent * pTrigger = GetOwner()->FindComponentByClass<UTriggerComponent>();
+	if (pTrigger)
+		pTrigger->OnTriggered.AddDynamic(this, &UTriggerableWeaponComponent::Triggered);
+	
+}
 
 void UTriggerableWeaponComponent::Triggered(FVector InputVector)
 {
@@ -29,23 +39,12 @@ void UTriggerableWeaponComponent::Triggered(FVector InputVector)
 		params.Instigator = Cast<APawn>(GetOwner());
 
 		ATinyShooter1Projectile * SpawnedActor = World->SpawnActor<ATinyShooter1Projectile>(ProjectileType, GetComponentLocation(), GetComponentRotation(), params);
-		if(SpawnedActor != nullptr)
+		if (SpawnedActor != nullptr)
 		{
 			if (FireSound != nullptr)
 				UGameplayStatics::PlaySoundAtLocation(GetOwner(), FireSound, GetComponentLocation());
 		}
 	}
-}
-
-// Called when the game starts
-void UTriggerableWeaponComponent::BeginPlay()
-{
-	Super::BeginPlay();
-
-	UTriggerComponent * pTrigger = GetOwner()->FindComponentByClass<UTriggerComponent>();
-	if (pTrigger)
-		pTrigger->OnTriggered.AddDynamic(this, &UTriggerableWeaponComponent::Triggered);
-	
 }
 
 

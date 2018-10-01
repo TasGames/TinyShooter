@@ -21,7 +21,7 @@ public:
 	TSubclassOf<class ATinyShooter1Projectile> ProjectileType;
 
 	// Sound plays when it fires
-	UPROPERTY(category = Audio, EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
 	class USoundBase* FireSound;
 
 	// this has to be a ufunction so that it can be bound to the OnTriggered multicast delegate on the trigger component!
