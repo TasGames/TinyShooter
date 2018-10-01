@@ -566,3 +566,431 @@ LogInit: Object subsystem initialized
 [2018.10.01-16.10.53:008][ 42]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
 [2018.10.01-16.10.53:320][ 42]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2579 classes and 607 folders.
 [2018.10.01-16.10.53:320][ 42]Display: HotReload took  4.1s.
+[2018.10.01-16.19.09:056][801]Candidate modules for hot reload:
+[2018.10.01-16.19.09:056][801]  TinyShooter1
+[2018.10.01-16.19.09:056][801]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TinyShooter1,6116 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" ]
+[2018.10.01-16.19.09:063][801]Warning: Starting HotReload took  0.0s.
+[2018.10.01-16.19.23:638][536]CompilerResultsLog: New page: Compilation - 1 Oct 2018 18:19:23
+[2018.10.01-16.19.23:638][536]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.01-16.19.23:638][536]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.01-16.19.23:638][536]CompilerResultsLog: Parsing headers for TinyShooter1Editor
+[2018.10.01-16.19.23:638][536]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\TinyShooter1.uproject" "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\TinyShooter1Editor\Development\TinyShooter1Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.01-16.19.23:638][536]CompilerResultsLog: Reflection code generated for TinyShooter1Editor in 9.8624513 seconds
+[2018.10.01-16.19.23:638][536]CompilerResultsLog: Building 5 actions with 4 processes...
+[2018.10.01-16.19.23:638][536]CompilerResultsLog:   [1/5] TinyShooter1.init.gen.cpp
+[2018.10.01-16.19.23:638][536]CompilerResultsLog:   [2/5] TriggerableWeaponComponent.gen.cpp
+[2018.10.01-16.19.23:638][536]CompilerResultsLog:   [3/5] TriggerableWeaponComponent.cpp
+[2018.10.01-16.19.23:638][536]CompilerResultsLog:   [4/5] UE4Editor-TinyShooter1-6116.lib
+[2018.10.01-16.19.23:638][536]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-6116.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-6116.exp
+[2018.10.01-16.19.23:639][536]CompilerResultsLog:   [5/5] UE4Editor-TinyShooter1-6116.dll
+[2018.10.01-16.19.23:639][536]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-6116.suppressed.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-6116.suppressed.exp
+[2018.10.01-16.19.23:639][536]CompilerResultsLog: Total build time: 14.31 seconds (Parallel executor: 2.91 seconds)
+[2018.10.01-16.19.23:639][536]LogMainFrame: MainFrame: Module compiling took 14.597 seconds
+[2018.10.01-16.19.23:766][536]LogClass: Could not find existing class TriggerableWeaponComponent in package /Script/TinyShooter1 for HotReload, assuming new class
+[2018.10.01-16.19.23:766][536]LogClass: Function Triggered is new.
+[2018.10.01-16.19.23:777][536]LogHotReload: Re-instancing TriggerableWeaponComponent after hot-reload.
+[2018.10.01-16.19.23:920][536]LogContentBrowser: Native class hierarchy updated for 'TinyShooter1' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2018.10.01-16.19.23:924][536]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.10.01-16.19.24:272][536]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2579 classes and 607 folders.
+[2018.10.01-16.19.24:272][536]Display: HotReload took 15.2s.
+[2018.10.01-16.28.52:340][936]Candidate modules for hot reload:
+[2018.10.01-16.28.52:340][936]  TinyShooter1
+[2018.10.01-16.28.52:340][936]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TinyShooter1,532 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" ]
+[2018.10.01-16.28.52:347][936]Warning: Starting HotReload took  0.0s.
+[2018.10.01-16.28.54:946][247]CompilerResultsLog: New page: Compilation - 1 Oct 2018 18:28:54
+[2018.10.01-16.28.54:946][247]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.01-16.28.54:946][247]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.01-16.28.54:946][247]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.10.01-16.28.54:946][247]CompilerResultsLog:   [1/3] TriggerableWeaponComponent.cpp
+[2018.10.01-16.28.54:946][247]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Source\TinyShooter1\TriggerableWeaponComponent.cpp(29) : error C2065: 'cast': undeclared identifier
+[2018.10.01-16.28.54:946][247]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Source\TinyShooter1\TriggerableWeaponComponent.cpp(29) : error C2275: 'APawn': illegal use of this type as an expression
+[2018.10.01-16.28.54:946][247]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h(53): note: see declaration of 'APawn'
+[2018.10.01-16.28.54:946][247]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Binaries\Win64\UE4Editor-TinyShooter1-532.dll
+[2018.10.01-16.28.54:946][247]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.10.01-16.28.54:946][247]CompilerResultsLog: Total build time: 2.36 seconds (Parallel executor: 0.00 seconds)
+[2018.10.01-16.28.54:946][247]LogMainFrame: MainFrame: Module compiling took 2.619 seconds
+[2018.10.01-16.28.54:946][247]Warning: HotReload failed, recompile failed
+[2018.10.01-16.29.36:986][227]Candidate modules for hot reload:
+[2018.10.01-16.29.36:986][227]  TinyShooter1
+[2018.10.01-16.29.36:986][227]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TinyShooter1,670 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" ]
+[2018.10.01-16.29.36:992][227]Warning: Starting HotReload took  0.0s.
+[2018.10.01-16.29.41:172][728]CompilerResultsLog: New page: Compilation - 1 Oct 2018 18:29:41
+[2018.10.01-16.29.41:172][728]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.01-16.29.41:172][728]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.01-16.29.41:172][728]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.10.01-16.29.41:172][728]CompilerResultsLog:   [1/3] TriggerableWeaponComponent.cpp
+[2018.10.01-16.29.41:172][728]CompilerResultsLog:   [2/3] UE4Editor-TinyShooter1-670.lib
+[2018.10.01-16.29.41:172][728]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-670.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-670.exp
+[2018.10.01-16.29.41:172][728]CompilerResultsLog:   [3/3] UE4Editor-TinyShooter1-670.dll
+[2018.10.01-16.29.41:172][728]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-670.suppressed.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-670.suppressed.exp
+[2018.10.01-16.29.41:173][728]CompilerResultsLog: Total build time: 3.94 seconds (Parallel executor: 2.55 seconds)
+[2018.10.01-16.29.41:173][728]LogMainFrame: MainFrame: Module compiling took 4.201 seconds
+[2018.10.01-16.29.41:279][728]LogContentBrowser: Native class hierarchy updated for 'TinyShooter1' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2018.10.01-16.29.41:284][728]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.10.01-16.29.41:628][728]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2579 classes and 607 folders.
+[2018.10.01-16.29.41:628][728]Display: HotReload took  4.7s.
+[2018.10.01-16.39.39:381][605]Candidate modules for hot reload:
+[2018.10.01-16.39.39:381][605]  TinyShooter1
+[2018.10.01-16.39.39:381][605]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TinyShooter1,2015 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" ]
+[2018.10.01-16.39.39:388][605]Warning: Starting HotReload took  0.0s.
+[2018.10.01-16.39.50:385][923]CompilerResultsLog: New page: Compilation - 1 Oct 2018 18:39:50
+[2018.10.01-16.39.50:385][923]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.01-16.39.50:385][923]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.01-16.39.50:385][923]CompilerResultsLog: Parsing headers for TinyShooter1Editor
+[2018.10.01-16.39.50:385][923]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\TinyShooter1.uproject" "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\TinyShooter1Editor\Development\TinyShooter1Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.01-16.39.50:385][923]CompilerResultsLog: Error: A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Source/TinyShooter1/TinyShooter1Pawn.h(31)  : LogCompile: Error: BlueprintReadOnly should not be used on private members
+[2018.10.01-16.39.50:385][923]CompilerResultsLog: UnrealHeaderTool failed for target 'TinyShooter1Editor' (platform: Win64, module info: A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\TinyShooter1Editor\Development\TinyShooter1Editor.uhtmanifest).
+[2018.10.01-16.39.50:385][923]LogMainFrame: MainFrame: Module compiling took 11.018 seconds
+[2018.10.01-16.39.50:385][923]Warning: HotReload failed, recompile failed
+[2018.10.01-16.41.22:291][852]Candidate modules for hot reload:
+[2018.10.01-16.41.22:291][852]  TinyShooter1
+[2018.10.01-16.41.22:291][852]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TinyShooter1,9939 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" ]
+[2018.10.01-16.41.22:297][852]Warning: Starting HotReload took  0.0s.
+[2018.10.01-16.41.33:467][189]CompilerResultsLog: New page: Compilation - 1 Oct 2018 18:41:33
+[2018.10.01-16.41.33:467][189]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.01-16.41.33:467][189]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.01-16.41.33:467][189]CompilerResultsLog: Parsing headers for TinyShooter1Editor
+[2018.10.01-16.41.33:467][189]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\TinyShooter1.uproject" "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\TinyShooter1Editor\Development\TinyShooter1Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.01-16.41.33:467][189]CompilerResultsLog: Error: A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Source/TinyShooter1/TinyShooter1Pawn.h(31)  : LogCompile: Error: BlueprintReadOnly should not be used on private members
+[2018.10.01-16.41.33:467][189]CompilerResultsLog: UnrealHeaderTool failed for target 'TinyShooter1Editor' (platform: Win64, module info: A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\TinyShooter1Editor\Development\TinyShooter1Editor.uhtmanifest).
+[2018.10.01-16.41.33:467][189]LogMainFrame: MainFrame: Module compiling took 11.192 seconds
+[2018.10.01-16.41.33:468][189]Warning: HotReload failed, recompile failed
+[2018.10.01-16.43.39:663][563]Candidate modules for hot reload:
+[2018.10.01-16.43.39:663][563]  TinyShooter1
+[2018.10.01-16.43.39:663][563]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TinyShooter1,4526 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" ]
+[2018.10.01-16.43.39:669][563]Warning: Starting HotReload took  0.0s.
+[2018.10.01-16.43.50:722][889]CompilerResultsLog: New page: Compilation - 1 Oct 2018 18:43:50
+[2018.10.01-16.43.50:722][889]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.01-16.43.50:722][889]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.01-16.43.50:722][889]CompilerResultsLog: Parsing headers for TinyShooter1Editor
+[2018.10.01-16.43.50:722][889]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\TinyShooter1.uproject" "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\TinyShooter1Editor\Development\TinyShooter1Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.01-16.43.50:723][889]CompilerResultsLog: Error: A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Source/TinyShooter1/TinyShooter1Pawn.h(31)  : LogCompile: Error: BlueprintReadOnly should not be used on private members
+[2018.10.01-16.43.50:723][889]CompilerResultsLog: UnrealHeaderTool failed for target 'TinyShooter1Editor' (platform: Win64, module info: A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\TinyShooter1Editor\Development\TinyShooter1Editor.uhtmanifest).
+[2018.10.01-16.43.50:723][889]LogMainFrame: MainFrame: Module compiling took 11.073 seconds
+[2018.10.01-16.43.50:723][889]Warning: HotReload failed, recompile failed
+[2018.10.01-16.45.22:190][ 51]LogSlate: Window 'Message Log' being destroyed
+[2018.10.01-16.45.22:194][ 51]LogSlate: Window 'Message Log' being destroyed
+[2018.10.01-16.46.05:393][405]Candidate modules for hot reload:
+[2018.10.01-16.46.05:393][405]  TinyShooter1
+[2018.10.01-16.46.05:393][405]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TinyShooter1,3814 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" ]
+[2018.10.01-16.46.05:400][405]Warning: Starting HotReload took  0.0s.
+[2018.10.01-16.46.20:925][259]CompilerResultsLog: New page: Compilation - 1 Oct 2018 18:46:20
+[2018.10.01-16.46.20:925][259]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.01-16.46.20:925][259]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.01-16.46.20:925][259]CompilerResultsLog: Parsing headers for TinyShooter1Editor
+[2018.10.01-16.46.20:925][259]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\TinyShooter1.uproject" "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\TinyShooter1Editor\Development\TinyShooter1Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.01-16.46.20:925][259]CompilerResultsLog: Reflection code generated for TinyShooter1Editor in 9.5597879 seconds
+[2018.10.01-16.46.20:925][259]CompilerResultsLog: Building 7 actions with 4 processes...
+[2018.10.01-16.46.20:925][259]CompilerResultsLog:   [1/7] TinyShooter1.init.gen.cpp
+[2018.10.01-16.46.20:925][259]CompilerResultsLog:   [2/7] TriggerableWeaponComponent.cpp
+[2018.10.01-16.46.20:925][259]CompilerResultsLog:   [3/7] TinyShooter1Pawn.gen.cpp
+[2018.10.01-16.46.20:925][259]CompilerResultsLog:   [4/7] TinyShooter1GameMode.cpp
+[2018.10.01-16.46.20:925][259]CompilerResultsLog:   [5/7] TinyShooter1Pawn.cpp
+[2018.10.01-16.46.20:925][259]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Source\TinyShooter1\TinyShooter1Pawn.cpp(55) : error C2027: use of undefined type 'UTriggerComponent'
+[2018.10.01-16.46.20:926][259]CompilerResultsLog:   a:\projects\unreal engine projects\tinyshooter\tinyshooter1\source\tinyshooter1\TinyShooter1Pawn.h(32): note: see declaration of 'UTriggerComponent'
+[2018.10.01-16.46.20:926][259]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Source\TinyShooter1\TinyShooter1Pawn.cpp(98) : error C2027: use of undefined type 'UTriggerComponent'
+[2018.10.01-16.46.20:926][259]CompilerResultsLog:   a:\projects\unreal engine projects\tinyshooter\tinyshooter1\source\tinyshooter1\TinyShooter1Pawn.h(32): note: see declaration of 'UTriggerComponent'
+[2018.10.01-16.46.20:926][259]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Binaries\Win64\UE4Editor-TinyShooter1-3814.dll
+[2018.10.01-16.46.20:926][259]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.10.01-16.46.20:926][259]CompilerResultsLog: Total build time: 15.28 seconds (Parallel executor: 0.00 seconds)
+[2018.10.01-16.46.20:926][259]LogMainFrame: MainFrame: Module compiling took 15.548 seconds
+[2018.10.01-16.46.20:926][259]Warning: HotReload failed, recompile failed
+[2018.10.01-16.48.36:856][775]LogSlate: Window 'Message Log' being destroyed
+[2018.10.01-16.48.36:859][775]LogSlate: Window 'Message Log' being destroyed
+[2018.10.01-16.49.31:124][394]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2018.10.01-16.49.32:523][546]LogContentBrowser: Verbose: The majority of assets in the view are of type: Blueprint
+[2018.10.01-16.49.47:313][297]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TwinStick/Blueprints/Bp_TinyShooter1Pawn.Bp_TinyShooter1Pawn
+[2018.10.01-16.57.54:446][246]Candidate modules for hot reload:
+[2018.10.01-16.57.54:446][246]  TinyShooter1
+[2018.10.01-16.57.54:446][246]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TinyShooter1,1127 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" ]
+[2018.10.01-16.57.54:452][246]Warning: Starting HotReload took  0.0s.
+[2018.10.01-16.57.57:229][579]CompilerResultsLog: New page: Compilation - 1 Oct 2018 18:57:57
+[2018.10.01-16.57.57:229][579]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.01-16.57.57:229][579]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.01-16.57.57:229][579]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.10.01-16.57.57:229][579]CompilerResultsLog:   [1/3] TinyShooter1Pawn.cpp
+[2018.10.01-16.57.57:229][579]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Source\TinyShooter1\TinyShooter1Pawn.cpp(54) : error C2027: use of undefined type 'UTriggerComponent'
+[2018.10.01-16.57.57:229][579]CompilerResultsLog:   a:\projects\unreal engine projects\tinyshooter\tinyshooter1\source\tinyshooter1\TinyShooter1Pawn.h(32): note: see declaration of 'UTriggerComponent'
+[2018.10.01-16.57.57:229][579]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Source\TinyShooter1\TinyShooter1Pawn.cpp(97) : error C2027: use of undefined type 'UTriggerComponent'
+[2018.10.01-16.57.57:229][579]CompilerResultsLog:   a:\projects\unreal engine projects\tinyshooter\tinyshooter1\source\tinyshooter1\TinyShooter1Pawn.h(32): note: see declaration of 'UTriggerComponent'
+[2018.10.01-16.57.57:229][579]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Binaries\Win64\UE4Editor-TinyShooter1-1127.dll
+[2018.10.01-16.57.57:229][579]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.10.01-16.57.57:229][579]CompilerResultsLog: Total build time: 2.53 seconds (Parallel executor: 0.00 seconds)
+[2018.10.01-16.57.57:229][579]LogMainFrame: MainFrame: Module compiling took 2.797 seconds
+[2018.10.01-16.57.57:229][579]Warning: HotReload failed, recompile failed
+[2018.10.01-17.00.32:116][ 94]LogSlate: Window 'Message Log' being destroyed
+[2018.10.01-17.00.32:118][ 94]LogSlate: Window 'Message Log' being destroyed
+[2018.10.01-17.00.32:788][158]Candidate modules for hot reload:
+[2018.10.01-17.00.32:788][158]  TinyShooter1
+[2018.10.01-17.00.32:788][158]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TinyShooter1,9221 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" ]
+[2018.10.01-17.00.32:794][158]Warning: Starting HotReload took  0.0s.
+[2018.10.01-17.00.37:232][687]CompilerResultsLog: New page: Compilation - 1 Oct 2018 19:00:37
+[2018.10.01-17.00.37:232][687]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.01-17.00.37:232][687]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.01-17.00.37:232][687]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.10.01-17.00.37:233][687]CompilerResultsLog:   [1/3] TinyShooter1Pawn.cpp
+[2018.10.01-17.00.37:233][687]CompilerResultsLog:   [2/3] UE4Editor-TinyShooter1-9221.lib
+[2018.10.01-17.00.37:233][687]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-9221.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-9221.exp
+[2018.10.01-17.00.37:233][687]CompilerResultsLog:   [3/3] UE4Editor-TinyShooter1-9221.dll
+[2018.10.01-17.00.37:233][687]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-9221.suppressed.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-9221.suppressed.exp
+[2018.10.01-17.00.37:233][687]CompilerResultsLog: Total build time: 4.19 seconds (Parallel executor: 2.78 seconds)
+[2018.10.01-17.00.37:233][687]LogMainFrame: MainFrame: Module compiling took 4.459 seconds
+[2018.10.01-17.00.37:449][687]LogClass: Could not find existing class TinyShooter1Pawn in package /Script/TinyShooter1 for HotReload, assuming new class
+[2018.10.01-17.00.37:457][687]LogHotReload: Re-instancing TinyShooter1GameMode after hot-reload.
+[2018.10.01-17.00.37:637][687]LogHotReload: Re-instancing TinyShooter1Pawn after hot-reload.
+[2018.10.01-17.00.37:956][687]LogContentBrowser: Native class hierarchy updated for 'TinyShooter1' in 0.0006 seconds. Added 6 classes and 2 folders.
+[2018.10.01-17.00.37:960][687]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.10.01-17.00.38:354][687]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2579 classes and 607 folders.
+[2018.10.01-17.00.38:354][687]Display: HotReload took  5.6s.
+[2018.10.01-17.02.05:197][382]Candidate modules for hot reload:
+[2018.10.01-17.02.05:197][382]  TinyShooter1
+[2018.10.01-17.02.05:197][382]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TinyShooter1,2199 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" ]
+[2018.10.01-17.02.05:203][382]Warning: Starting HotReload took  0.0s.
+[2018.10.01-17.02.18:641][990]CompilerResultsLog: New page: Compilation - 1 Oct 2018 19:02:18
+[2018.10.01-17.02.18:641][990]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.01-17.02.18:641][990]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.01-17.02.18:641][990]CompilerResultsLog: Parsing headers for TinyShooter1Editor
+[2018.10.01-17.02.18:641][990]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\TinyShooter1.uproject" "A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\TinyShooter1Editor\Development\TinyShooter1Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.01-17.02.18:641][990]CompilerResultsLog: Reflection code generated for TinyShooter1Editor in 9.521476 seconds
+[2018.10.01-17.02.18:641][990]CompilerResultsLog: Building 4 actions with 4 processes...
+[2018.10.01-17.02.18:641][990]CompilerResultsLog:   [1/4] TriggerableWeaponComponent.gen.cpp
+[2018.10.01-17.02.18:641][990]CompilerResultsLog:   [2/4] TriggerableWeaponComponent.cpp
+[2018.10.01-17.02.18:641][990]CompilerResultsLog:   [3/4] UE4Editor-TinyShooter1-2199.lib
+[2018.10.01-17.02.18:641][990]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-2199.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-2199.exp
+[2018.10.01-17.02.18:641][990]CompilerResultsLog:   [4/4] UE4Editor-TinyShooter1-2199.dll
+[2018.10.01-17.02.18:641][990]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-2199.suppressed.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-2199.suppressed.exp
+[2018.10.01-17.02.18:641][990]CompilerResultsLog: Total build time: 13.19 seconds (Parallel executor: 2.09 seconds)
+[2018.10.01-17.02.18:641][990]LogMainFrame: MainFrame: Module compiling took 13.458 seconds
+[2018.10.01-17.02.18:737][990]LogContentBrowser: Native class hierarchy updated for 'TinyShooter1' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2018.10.01-17.02.18:741][990]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.10.01-17.02.19:057][990]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2579 classes and 607 folders.
+[2018.10.01-17.02.19:057][990]Display: HotReload took 13.9s.
+[2018.10.01-17.02.29:836][271]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TwinStick/Blueprints/Bp_TinyShooter1Pawn.Bp_TinyShooter1Pawn
+[2018.10.01-17.05.13:895][144]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-17.05.35:057][675]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-17.05.42:379][509]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-17.05.42:382][509]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.01-17.05.53:583][849]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-17.05.53:666][859]BlueprintLog: New page: Compile Bp_TinyShooter1Pawn
+[2018.10.01-17.05.54:975][974]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/Bp_TinyShooter1PawnB0A3D6374357D108B1A324B04603A361.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStick/Blueprints/Bp_TinyShooter1Pawn.uasset'
+[2018.10.01-17.06.37:958][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-17.06.57:401][905]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.01-17.07.23:190][985]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TwinStick/Blueprints/Bp_TinyShooter1GameMode.Bp_TinyShooter1GameMode
+[2018.10.01-17.07.27:420][427]LogSlate: Window 'Bp_TinyShooter1GameMode*' being destroyed
+[2018.10.01-17.09.14:364][222]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TwinStick/Blueprints/Bp_TinyShooter1GameMode.Bp_TinyShooter1GameMode
+[2018.10.01-17.09.42:590][574]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.01-17.10.01:919][886]BlueprintLog: New page: Compile Bp_TinyShooter1GameMode
+[2018.10.01-17.10.02:831][963]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/Bp_TinyShooter1GameMode6E7FEF4B438CAB77F2D6D5A78023F987.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStick/Blueprints/Bp_TinyShooter1GameMode.uasset'
+[2018.10.01-17.10.05:610][294]LogSlate: Window 'Bp_TinyShooter1GameMode' being destroyed
+[2018.10.01-17.10.41:922][601]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-17.10.43:796][824]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-17.10.45:037][824]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.10.01-17.10.45:124][825]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TinyShooter1
+[2018.10.01-17.10.45:124][825]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.01-17.10.45:124][825]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.10.01-17.10.45:124][825]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.01-17.10.45:124][825]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.10.01-17.10.45:124][825]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.10.01-17.10.49:026][277]LogSlate: Window 'Project Settings' being destroyed
+[2018.10.01-17.10.59:279][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-17.11.08:037][553]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.01-17.11.35:404][822]Candidate modules for hot reload:
+[2018.10.01-17.11.35:404][822]  TinyShooter1
+[2018.10.01-17.11.35:404][822]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TinyShooter1,6864 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/TinyShooter1.uproject" ]
+[2018.10.01-17.11.35:411][822]Warning: Starting HotReload took  0.0s.
+[2018.10.01-17.11.40:606][425]CompilerResultsLog: New page: Compilation - 1 Oct 2018 19:11:40
+[2018.10.01-17.11.40:606][425]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.01-17.11.40:606][425]CompilerResultsLog: Creating makefile for hot reloading TinyShooter1Editor (ini files are newer than UBTMakefile)
+[2018.10.01-17.11.40:606][425]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.01-17.11.40:606][425]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.01-17.11.40:606][425]CompilerResultsLog: Target is up to date
+[2018.10.01-17.11.40:606][425]CompilerResultsLog: Total build time: 4.93 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.10.01-17.11.40:606][425]LogMainFrame: MainFrame: Module compiling took 5.214 seconds
+[2018.10.01-17.11.40:868][425]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2579 classes and 607 folders.
+[2018.10.01-17.11.40:868][425]Display: HotReload took  5.5s.
+[2018.10.01-17.11.41:969][556]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-17.11.41:992][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-17.11.41:992][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-17.11.42:006][556]PIE: New page: PIE session: TwinStickExampleMap (1 Oct 2018 19:11:42)
+[2018.10.01-17.11.42:006][556]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.01-17.11.42:029][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021993s)
+[2018.10.01-17.11.42:029][556]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.01-17.11.42:030][556]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2018.10.01-17.11.42:030][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.023340s)
+[2018.10.01-17.11.42:121][556]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.01-17.11.42:131][556]LogInit: FAudioDevice initialized.
+[2018.10.01-17.11.42:185][556]LogLoad: Game class is 'Bp_TinyShooter1GameMode_C'
+[2018.10.01-17.11.42:189][556]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2018.10.01-18.11.42
+[2018.10.01-17.11.42:189][556]LogWorld: Bringing up level for play took: 0.001386
+[2018.10.01-17.11.42:234][556]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.10.01-17.11.42:234][556]PIE: Play in editor start time for /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap -0.371
+[2018.10.01-17.11.42:235][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-17.12.15:192][502]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-17.12.15:195][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-17.12.15:230][502]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-17.12.15:231][502]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-17.12.15:264][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-17.12.15:298][503]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.10.01-17.12.20:561][132]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-17.12.23:355][374]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.10.01-17.12.23:374][374]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-17.12.23:399][375]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TinyShooter1
+[2018.10.01-17.12.23:399][375]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.01-17.12.23:399][375]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.10.01-17.12.23:399][375]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.01-17.12.23:399][375]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.10.01-17.12.23:410][376]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.10.01-17.12.27:710][889]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.01-17.12.36:680][957]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-17.12.36:696][957]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-17.12.36:696][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-17.12.36:697][957]PIE: New page: PIE session: TwinStickExampleMap (1 Oct 2018 19:12:36)
+[2018.10.01-17.12.36:697][957]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.01-17.12.36:707][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010281s)
+[2018.10.01-17.12.36:708][957]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.01-17.12.36:708][957]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2018.10.01-17.12.36:708][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.011198s)
+[2018.10.01-17.12.36:742][957]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.01-17.12.36:750][957]LogInit: FAudioDevice initialized.
+[2018.10.01-17.12.36:784][957]LogLoad: Game class is 'TinyShooter1GameMode'
+[2018.10.01-17.12.36:785][957]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2018.10.01-18.12.36
+[2018.10.01-17.12.36:785][957]LogWorld: Bringing up level for play took: 0.001082
+[2018.10.01-17.12.36:797][957]PIE: Play in editor start time for /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap 0.192
+[2018.10.01-17.12.36:798][957]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-17.12.48:867][402]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-17.12.48:868][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-17.12.48:899][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-17.12.48:899][402]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-17.12.48:932][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-17.12.48:983][404]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.10.01-17.12.49:784][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-17.12.54:812][ 12]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.10.01-17.12.54:856][ 13]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TinyShooter1
+[2018.10.01-17.12.54:856][ 13]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.01-17.12.54:856][ 13]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.10.01-17.12.54:856][ 13]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.01-17.12.54:873][ 15]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.10.01-17.12.54:889][ 17]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.10.01-17.13.21:835][721]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/TwinStickExampleMap2EE14EAE497CB5033513BC994CBCFE06.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStickCPP/Maps/TwinStickExampleMap.umap'
+[2018.10.01-17.13.21:994][721]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/TwinStickExampleMap_BuiltData87573BF0404007C6ECDBF29BF752BAF9.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2018.10.01-17.17.39:400][652]BlueprintLog: New page: Compile Bp_TinyShooter1Pawn
+[2018.10.01-17.17.41:263][848]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/Bp_TinyShooter1Pawn003B281E4CC89A9FB64489BBCF6C4AE8.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStick/Blueprints/Bp_TinyShooter1Pawn.uasset'
+[2018.10.01-17.17.43:038][ 60]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-17.17.43:054][ 60]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-17.17.43:054][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-17.17.43:054][ 60]PIE: New page: PIE session: TwinStickExampleMap (1 Oct 2018 19:17:43)
+[2018.10.01-17.17.43:055][ 60]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.01-17.17.43:065][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010710s)
+[2018.10.01-17.17.43:066][ 60]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.01-17.17.43:067][ 60]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2018.10.01-17.17.43:067][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.012085s)
+[2018.10.01-17.17.43:103][ 60]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.01-17.17.43:111][ 60]LogInit: FAudioDevice initialized.
+[2018.10.01-17.17.43:143][ 60]LogLoad: Game class is 'Bp_TinyShooter1GameMode_C'
+[2018.10.01-17.17.43:145][ 60]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2018.10.01-18.17.43
+[2018.10.01-17.17.43:145][ 60]LogWorld: Bringing up level for play took: 0.001174
+[2018.10.01-17.17.43:156][ 60]PIE: Play in editor start time for /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap 0.552
+[2018.10.01-17.17.43:157][ 60]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-17.17.56:771][690]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-17.17.56:772][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-17.17.56:806][690]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-17.17.56:806][690]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-17.17.56:837][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-17.17.56:877][693]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.10.01-17.17.57:750][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-17.18.21:858][237]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.10.01-17.18.21:910][238]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TinyShooter1
+[2018.10.01-17.18.21:910][238]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.01-17.18.21:910][238]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.10.01-17.18.21:910][238]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.01-17.18.21:910][238]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.10.01-17.18.21:921][239]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.10.01-22.33.31:112][127]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-22.33.31:240][127]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-22.33.31:241][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-22.33.31:242][127]PIE: New page: PIE session: TwinStickExampleMap (2 Oct 2018 00:33:31)
+[2018.10.01-22.33.31:242][127]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.01-22.33.31:275][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032028s)
+[2018.10.01-22.33.31:280][127]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.01-22.33.31:282][127]LogPlayLevel: PIE: World Init took: (0.006576s)
+[2018.10.01-22.33.31:282][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.039429s)
+[2018.10.01-22.33.31:378][127]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.01-22.33.31:389][127]LogInit: FAudioDevice initialized.
+[2018.10.01-22.33.31:427][127]LogLoad: Game class is 'Bp_TinyShooter1GameMode_C'
+[2018.10.01-22.33.31:431][127]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2018.10.01-23.33.31
+[2018.10.01-22.33.31:432][127]LogWorld: Bringing up level for play took: 0.002838
+[2018.10.01-22.33.31:448][127]PIE: Play in editor start time for /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap 0.844
+[2018.10.01-22.33.31:449][127]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-22.33.39:938][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-22.33.39:939][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-22.33.39:972][136]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-22.33.39:973][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-22.33.40:007][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-22.33.40:045][137]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.10.01-23.14.12:114][473]LogHotReload: New module detected: UE4Editor-TinyShooter1-4782.dll
+[2018.10.01-23.14.12:801][476]LogHotReload: Starting Hot-Reload from IDE
+[2018.10.01-23.14.13:023][476]LogContentBrowser: Native class hierarchy updated for 'TinyShooter1' in 0.0019 seconds. Added 6 classes and 2 folders.
+[2018.10.01-23.14.13:034][476]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.10.01-23.14.13:563][476]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 2579 classes and 607 folders.
+[2018.10.01-23.14.13:579][476]Display: HotReload took  0.8s.
+[2018.10.01-23.15.02:413][622]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-23.15.08:212][302]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-23.15.11:176][652]BlueprintLog: New page: Compile Bp_TinyShooter1Pawn
+[2018.10.01-23.15.11:937][695]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/Bp_TinyShooter1Pawn5A15FD6D4D536F33BC7D308E75419CA6.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStick/Blueprints/Bp_TinyShooter1Pawn.uasset'
+[2018.10.01-23.15.14:176][962]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-23.15.14:198][962]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-23.15.14:199][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-23.15.14:199][962]PIE: New page: PIE session: TwinStickExampleMap (2 Oct 2018 01:15:14)
+[2018.10.01-23.15.14:199][962]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.01-23.15.14:221][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021274s)
+[2018.10.01-23.15.14:222][962]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.01-23.15.14:222][962]LogPlayLevel: PIE: World Init took: (0.001793s)
+[2018.10.01-23.15.14:222][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.023309s)
+[2018.10.01-23.15.14:290][962]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.01-23.15.14:298][962]LogInit: FAudioDevice initialized.
+[2018.10.01-23.15.14:329][962]LogLoad: Game class is 'Bp_TinyShooter1GameMode_C'
+[2018.10.01-23.15.14:331][962]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2018.10.02-00.15.14
+[2018.10.01-23.15.14:331][962]LogWorld: Bringing up level for play took: 0.001280
+[2018.10.01-23.15.14:344][962]PIE: Play in editor start time for /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap -0.26
+[2018.10.01-23.15.14:344][962]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-23.15.19:730][603]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-23.15.19:731][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-23.15.19:764][603]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-23.15.19:764][603]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-23.15.19:799][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-23.15.19:829][604]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.10.01-23.15.22:736][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-23.15.49:911][185]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.01-23.15.59:487][330]BlueprintLog: New page: Compile Bp_TinyShooter1Pawn
+[2018.10.01-23.16.00:647][441]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/Bp_TinyShooter1PawnD2519BD741D290EFEAAD8B8A8A242C94.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStick/Blueprints/Bp_TinyShooter1Pawn.uasset'
+[2018.10.01-23.16.03:989][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-23.16.04:064][848]BlueprintLog: New page: Compile Bp_TinyShooter1Pawn
+[2018.10.01-23.16.04:730][902]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/Bp_TinyShooter1PawnE2B41C394F8049B86142B487A054DB83.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStick/Blueprints/Bp_TinyShooter1Pawn.uasset'
+[2018.10.01-23.16.06:714][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.01-23.16.13:354][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-23.16.27:981][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-23.16.28:064][688]BlueprintLog: New page: Compile Bp_TinyShooter1Pawn
+[2018.10.01-23.16.29:119][788]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Saved/Bp_TinyShooter1PawnB1D37CA74C13CAAFD11E6697EE2F8D1D.tmp' to 'A:/Projects/Unreal Engine Projects/TinyShooter/TinyShooter1/Content/TwinStick/Blueprints/Bp_TinyShooter1Pawn.uasset'
+[2018.10.01-23.16.31:324][ 51]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-23.16.31:337][ 51]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-23.16.31:337][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-23.16.31:337][ 51]PIE: New page: PIE session: TwinStickExampleMap (2 Oct 2018 01:16:31)
+[2018.10.01-23.16.31:337][ 51]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.01-23.16.31:348][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010975s)
+[2018.10.01-23.16.31:349][ 51]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.01-23.16.31:349][ 51]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2018.10.01-23.16.31:349][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.012140s)
+[2018.10.01-23.16.31:386][ 51]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.01-23.16.31:394][ 51]LogInit: FAudioDevice initialized.
+[2018.10.01-23.16.31:426][ 51]LogLoad: Game class is 'Bp_TinyShooter1GameMode_C'
+[2018.10.01-23.16.31:428][ 51]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2018.10.02-00.16.31
+[2018.10.01-23.16.31:428][ 51]LogWorld: Bringing up level for play took: 0.001246
+[2018.10.01-23.16.31:441][ 51]PIE: Play in editor start time for /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap 0.836
+[2018.10.01-23.16.31:441][ 51]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-23.16.42:303][351]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-23.16.42:304][351]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-23.16.42:338][351]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-23.16.42:339][351]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.01-23.16.42:368][351]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-23.16.42:407][353]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.10.01-23.17.06:037][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
