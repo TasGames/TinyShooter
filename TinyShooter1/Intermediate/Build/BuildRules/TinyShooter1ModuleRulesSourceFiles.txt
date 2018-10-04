@@ -1,3 +1,3 @@
-A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Source\TinyShooter1\TinyShooter1.Build.cs
-A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Source\TinyShooter1.Target.cs
-A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Source\TinyShooter1Editor.Target.cs
+C:\Users\ts2crt\Documents\TinyShooter\TinyShooter1\Source\TinyShooter1\TinyShooter1.Build.cs
+C:\Users\ts2crt\Documents\TinyShooter\TinyShooter1\Source\TinyShooter1.Target.cs
+C:\Users\ts2crt\Documents\TinyShooter\TinyShooter1\Source\TinyShooter1Editor.Target.cs
