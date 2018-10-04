@@ -1,103 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\TinyShooter1.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{05EDACD9-7F76-4E99-974D-EC972E036B98}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\TinyShooter1.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\TinyShooter1Editor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{34D25D78-D8DA-4EC0-BA04-8E89C1117BD1}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\TinyShooter1">
-			<UniqueIdentifier>{EA4B9BC9-5D9D-4670-9196-C75B40C9661B}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\TinyShooter1\MyFloatingPawnMovement.cpp">
-			<Filter>Source\TinyShooter1</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TinyShooter1\MyFloatingPawnMovement.h">
-			<Filter>Source\TinyShooter1</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\TinyShooter1\TinyShooter1.Build.cs">
-			<Filter>Source\TinyShooter1</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\TinyShooter1\TinyShooter1.cpp">
-			<Filter>Source\TinyShooter1</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TinyShooter1\TinyShooter1.h">
-			<Filter>Source\TinyShooter1</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TinyShooter1\TinyShooter1GameMode.cpp">
-			<Filter>Source\TinyShooter1</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TinyShooter1\TinyShooter1GameMode.h">
-			<Filter>Source\TinyShooter1</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TinyShooter1\TinyShooter1Pawn.cpp">
-			<Filter>Source\TinyShooter1</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TinyShooter1\TinyShooter1Pawn.h">
-			<Filter>Source\TinyShooter1</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TinyShooter1\TinyShooter1Projectile.cpp">
-			<Filter>Source\TinyShooter1</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TinyShooter1\TinyShooter1Projectile.h">
-			<Filter>Source\TinyShooter1</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TinyShooter1\TriggerableWeaponComponent.cpp">
-			<Filter>Source\TinyShooter1</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TinyShooter1\TriggerableWeaponComponent.h">
-			<Filter>Source\TinyShooter1</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TinyShooter1\TriggerComponent.cpp">
-			<Filter>Source\TinyShooter1</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TinyShooter1\TriggerComponent.h">
-			<Filter>Source\TinyShooter1</Filter>
-		</ClInclude >
-		<Filter Include="Source\TinyShooter1\.vs">
-			<UniqueIdentifier>{0F794BB6-B648-4230-AED7-547D1ACBE935}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\TinyShooter1\.vs\ProjectSettings.json">
-			<Filter>Source\TinyShooter1\.vs</Filter>
-		</None >
-		<None Include="..\..\Source\TinyShooter1\.vs\slnx.sqlite">
-			<Filter>Source\TinyShooter1\.vs</Filter>
-		</None >
-		<None Include="..\..\Source\TinyShooter1\.vs\VSWorkspaceState.json">
-			<Filter>Source\TinyShooter1\.vs</Filter>
-		</None >
-		<Filter Include="Source\TinyShooter1\.vs\TinyShooter1">
-			<UniqueIdentifier>{658748C0-D0F6-48CD-962A-DC006C897EF3}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Source\TinyShooter1\.vs\TinyShooter1\v15">
-			<UniqueIdentifier>{67D137AA-9DD5-43FF-9859-26544B73224C}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\TinyShooter1\.vs\TinyShooter1\v15\Browse.VC.db">
-			<Filter>Source\TinyShooter1\.vs\TinyShooter1\v15</Filter>
-		</None >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\TinyShooter1.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{749502F6-0A77-441B-9D60-309A5D7206E9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TinyShooter1.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TinyShooter1Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A0D5FBC8-A725-4E16-9051-DC06E98C1565}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TinyShooter1">
+      <UniqueIdentifier>{7A398A06-2799-4D38-95AA-714C92433B68}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TinyShooter1\TinyShooter1.Build.cs">
+      <Filter>Source\TinyShooter1</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TinyShooter1\TinyShooter1.cpp">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TinyShooter1\TinyShooter1.h">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TinyShooter1\TinyShooter1GameMode.cpp">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TinyShooter1\TinyShooter1GameMode.h">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TinyShooter1\TinyShooter1Pawn.cpp">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TinyShooter1\TinyShooter1Pawn.h">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TinyShooter1\TinyShooter1Projectile.cpp">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TinyShooter1\TinyShooter1Projectile.h">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TinyShooter1\MyFloatingPawnMovement.h">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TinyShooter1\TriggerComponent.h">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TinyShooter1\TriggerableWeaponComponent.h">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TinyShooter1\MyFloatingPawnMovement.cpp">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TinyShooter1\TriggerComponent.cpp">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TinyShooter1\TriggerableWeaponComponent.cpp">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

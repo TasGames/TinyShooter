@@ -9,3 +9,18 @@ ATinyShooter1GameMode::ATinyShooter1GameMode()
 	DefaultPawnClass = ATinyShooter1Pawn::StaticClass();
 }
 
+void ATinyShooter1GameMode::Tick(float DeltaTime)
+{
+}
+
+void ATinyShooter1GameMode::BeginPlay()
+{
+}
+
+void ATinyShooter1GameMode::SpawnEnemyTimerExpired()
+{
+}
+
+void ATinyShooter1GameMode::HandleEnemyDestroyed(AActor * whodied)
+{
+}

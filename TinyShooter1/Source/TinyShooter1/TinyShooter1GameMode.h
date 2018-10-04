@@ -13,6 +13,38 @@ class ATinyShooter1GameMode : public AGameModeBase
 
 public:
 	ATinyShooter1GameMode();
+
+	virtual void Tick(float DeltaTime) override;
+	virtual void BeginPlay() override;
+
+	void SpawnEnemyTimerExpired();
+
+	UFUNCTION()
+	void HandleEnemyDestroyed(AActor * whodied);
+
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+	int32 EnemyDeaths = 10;
+
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+	int32 EnemyCountMax = 10;
+
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+	int32 EnemyCountCurrent = 10;
+
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+	float EnemySpawnInterval = 5000.0f;
+
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+	float SpawnRadius = 5000.0f;
+
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+	FVector SpawnOrigin;
+
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<AActor> EnemyClass;
+
+	FTimerHandle TimerHandle_EnemySpawnTimer;
+
 };
 
 
