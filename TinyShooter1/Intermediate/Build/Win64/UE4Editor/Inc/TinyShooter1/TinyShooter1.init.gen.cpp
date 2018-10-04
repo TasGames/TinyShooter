@@ -11,17 +11,21 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeTinyShooter1_init() {}
+	TINYSHOOTER1_API UFunction* Z_Construct_UDelegateFunction_TinyShooter1_TriggerEvent__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_TinyShooter1()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_TinyShooter1_TriggerEvent__DelegateSignature,
+			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/TinyShooter1",
 				PKG_CompiledIn | 0x00000000,
-				0x97945D54,
-				0xD6A42C32,
-				nullptr, 0,
+				0x493024E8,
+				0xD028DBFA,
+				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

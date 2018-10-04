@@ -61,7 +61,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATinyShooter1Pawn); \
 	FORCEINLINE static uint32 __PPO__ShipMeshComponent() { return STRUCT_OFFSET(ATinyShooter1Pawn, ShipMeshComponent); } \
 	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(ATinyShooter1Pawn, CameraComponent); } \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(ATinyShooter1Pawn, CameraBoom); } \
-	FORCEINLINE static uint32 __PPO__MovementComponent() { return STRUCT_OFFSET(ATinyShooter1Pawn, MovementComponent); }
+	FORCEINLINE static uint32 __PPO__MovementComponent() { return STRUCT_OFFSET(ATinyShooter1Pawn, MovementComponent); } \
+	FORCEINLINE static uint32 __PPO__TriggerComponent() { return STRUCT_OFFSET(ATinyShooter1Pawn, TriggerComponent); }
 
 
 #define TinyShooter1_Source_TinyShooter1_TinyShooter1Pawn_h_9_PROLOG

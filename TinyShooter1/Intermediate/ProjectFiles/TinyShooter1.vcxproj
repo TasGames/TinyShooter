@@ -410,6 +410,10 @@
     <NMakeOutput>..\..\Binaries\HTML5\TinyShooter1-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\TinyShooter1\TriggerableWeaponComponent.cpp" />
+    <ClCompile Include="..\..\Source\TinyShooter1\TriggerComponent.cpp" />
+    <ClInclude Include="..\..\Source\TinyShooter1\TriggerableWeaponComponent.h" />
+    <ClInclude Include="..\..\Source\TinyShooter1\TriggerComponent.h" />
     <None Include="..\..\TinyShooter1.uproject" />
     <None Include="..\..\Source\TinyShooter1.Target.cs" />
     <None Include="..\..\Source\TinyShooter1Editor.Target.cs" />

@@ -1,0 +1,13 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading TinyShooter1Editor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 4 processes...
+    [1/4] TriggerComponent.cpp
+    [2/4] TriggerableWeaponComponent.cpp
+    [3/4] UE4Editor-TinyShooter1-4782.lib
+       Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-4782.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-4782.exp
+    [4/4] UE4Editor-TinyShooter1-4782.dll
+       Creating library A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-4782.suppressed.lib and object A:\Projects\Unreal Engine Projects\TinyShooter\TinyShooter1\Intermediate\Build\Win64\UE4Editor\Development\TinyShooter1\UE4Editor-TinyShooter1-4782.suppressed.exp
+  Deploying TinyShooter1Editor Win64 Development...
+  Total build time: 6.18 seconds (Parallel executor: 1.80 seconds)

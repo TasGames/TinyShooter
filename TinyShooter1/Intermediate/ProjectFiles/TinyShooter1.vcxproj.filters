@@ -64,9 +64,21 @@
     <ClInclude Include="..\..\Source\TinyShooter1\MyFloatingPawnMovement.h">
       <Filter>Source\TinyShooter1</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\TinyShooter1\TriggerComponent.h">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TinyShooter1\TriggerableWeaponComponent.h">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\TinyShooter1\MyFloatingPawnMovement.cpp">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TinyShooter1\TriggerComponent.cpp">
+      <Filter>Source\TinyShooter1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TinyShooter1\TriggerableWeaponComponent.cpp">
       <Filter>Source\TinyShooter1</Filter>
     </ClCompile>
   </ItemGroup>

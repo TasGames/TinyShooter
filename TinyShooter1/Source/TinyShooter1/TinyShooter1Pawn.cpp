@@ -13,6 +13,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "Sound/SoundBase.h"
 #include "MyFloatingPawnMovement.h"
+#include "TriggerComponent.h"
 
 const FName ATinyShooter1Pawn::MoveForwardBinding("MoveForward");
 const FName ATinyShooter1Pawn::MoveRightBinding("MoveRight");
@@ -48,6 +49,10 @@ ATinyShooter1Pawn::ATinyShooter1Pawn()
 	// Create movement component
 	MovementComponent = CreateDefaultSubobject<UMyFloatingPawnMovement>(TEXT("MovementComp"));
 	MovementComponent->UpdatedComponent = RootComponent;
+
+	// Create trigger component
+	TriggerComponent = CreateDefaultSubobject<UTriggerComponent>(TEXT("TriggerComponent"));
+	TriggerComponent->FireRate = FireRate;
 
 	// Movement
 	MoveSpeed = 1000.0f;
@@ -90,35 +95,7 @@ void ATinyShooter1Pawn::Tick(float DeltaSeconds)
 
 void ATinyShooter1Pawn::FireShot(FVector FireDirection)
 {
-	// If it's ok to fire again
-	if (bCanFire == true)
-	{
-		// If we are pressing fire stick in a direction
-		if (FireDirection.SizeSquared() > 0.0f)
-		{
-			const FRotator FireRotation = FireDirection.Rotation();
-			// Spawn projectile at an offset from this pawn
-			const FVector SpawnLocation = GetActorLocation() + FireRotation.RotateVector(GunOffset);
-
-			UWorld* const World = GetWorld();
-			if (World != NULL)
-			{
-				// spawn the projectile
-				World->SpawnActor<ATinyShooter1Projectile>(SpawnLocation, FireRotation);
-			}
-
-			bCanFire = false;
-			World->GetTimerManager().SetTimer(TimerHandle_ShotTimerExpired, this, &ATinyShooter1Pawn::ShotTimerExpired, FireRate);
-
-			// try and play the sound if specified
-			if (FireSound != nullptr)
-			{
-				UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-			}
-
-			bCanFire = false;
-		}
-	}
+	TriggerComponent->InputVector = FireDirection;
 }
 
 void ATinyShooter1Pawn::ShotTimerExpired()
